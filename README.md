@@ -3,4 +3,4 @@
 # Contributors
 
 - Clarke Iakovakis
-- Phillip Alderman
+- Phillip D. Alderman
