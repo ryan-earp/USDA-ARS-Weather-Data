@@ -4,3 +4,4 @@
 
 - Clarke Iakovakis
 - Phillip Alderman
+- Katherine Haile
