@@ -5,4 +5,4 @@
 - Clarke Iakovakis
 - Phillip D. Alderman
 - Katherine Haile
--Ryan Earp
+- Ryan Earp
