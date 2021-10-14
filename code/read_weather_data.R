@@ -100,7 +100,7 @@ lat <- wth_import$...4[4]
 long <- wth_import$...6[4]
 
 ## Create new data set with full date and site specific info
-##NEED TO FIGURE OUT HOW TO CONVERT TIMES
+
 wth_data_time <- wth_data %>% 
   mutate(date = mdy(paste(month, day, year)),   
          location = rep(location, nrow(.)),
