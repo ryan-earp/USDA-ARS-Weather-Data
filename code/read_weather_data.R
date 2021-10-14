@@ -32,3 +32,54 @@ wdata %>%
 
 wdata %>% 
   filter(Tmax - Tmin != Trange)
+
+
+
+
+
+
+
+## Import entire excel file
+
+wth_import <- read_xlsx("Weather_1940-01.xlsx",
+                        col_names = FALSE,
+                        na = c("", "-"))
+
+## Subset data section only and replace column names with correct names
+
+wth_data <- wth_import [c(30:60), c(1:14)] 
+
+headers <- c("day", "temp_maximum", "temp_minimum", "temp_range", "temp_set_max", 
+             "precip_time_of_beginning", "precip_time_of_ending", "precip_amount",
+             "precip_snowfall_in_inches", "precip_snow_depth_tobs",
+             "wind_dir_tobs", "weather_state_tobs", "wind_dir_day", "weather_state_day")
+
+names(wth_data) <- headers
+
+## Create month/year variables and site specific information
+
+month <- wth_import$...2[3]
+year <- wth_import$...4[3]
+location <- wth_import$...6[3]
+county <- wth_import$...8[3]
+state <- wth_import$...2[4]
+lat <- wth_import$...4[4]
+long <- wth_import$...6[4]
+
+## Create new data set with full date and site specific info
+##NEED TO FIGURE OUT HOW TO CONVERT TIMES
+wth_data_time <- wth_data %>% 
+  mutate(date = mdy(paste(month, day, year)),   
+         location = rep(location, nrow(.)),
+         county = rep(county, nrow(.)),
+         state = rep(state, nrow(.)),
+         lat = rep(lat, nrow(.)),
+         long= rep(long, nrow(.))) %>%
+  subset(select = -c(day))
+
+## Reorder columns into more logical format
+
+wth_data_time <- wth_data_time[,c(14, 15, 16, 17, 18, 19, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13)]   
+
+
+
