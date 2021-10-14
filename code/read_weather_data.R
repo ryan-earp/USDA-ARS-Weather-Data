@@ -1,9 +1,11 @@
 # Load libraries
+
 library(tidyverse)
 library(lubridate)
 library(readxl)
 
 # Read in file
+
 year <- read_excel("../data/Weather_1940-01.xlsx",
                    range = "D3:D3", 
                    col_names = FALSE) %>% 
