@@ -74,7 +74,7 @@ wdata %>%
 
 ## Import entire excel file
 
-wth_import <- read_xlsx("Weather_1940-01.xlsx",
+wth_import <- read_xlsx("data/raw/Weather_1940-01.xlsx",
                         col_names = FALSE,
                         na = c("", "-"))
 
@@ -102,7 +102,8 @@ long <- wth_import$...6[4]
 ## Create new data set with full date and site specific info
 
 wth_data_time <- wth_data %>% 
-  mutate(date = mdy(paste(month, day, year)),   
+  mutate(date = mdy(paste(month, day, year)), 
+         precip_time_of_beginning_conv = format(times(as.numeric(precip_time_of_beginning))),
          location = rep(location, nrow(.)),
          county = rep(county, nrow(.)),
          state = rep(state, nrow(.)),
