@@ -3,6 +3,7 @@
 library(tidyverse)
 library(lubridate)
 library(readxl)
+library(chron)
 
 # Read in file
 
@@ -112,8 +113,10 @@ wth_data_time <- wth_data %>%
   subset(select = -c(day))
 
 ## Reorder columns into more logical format
+wth_data_time %>% 
+  select(date, location, county, state, lat, long, everything())
 
-wth_data_time <- wth_data_time[,c(14, 15, 16, 17, 18, 19, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13)]   
-
-
-
+wth_data_time %>% 
+  mutate(precip_time_of_beginning = precip_time_of_beginning %>% 
+           as.numeric() %>% 
+           times())
