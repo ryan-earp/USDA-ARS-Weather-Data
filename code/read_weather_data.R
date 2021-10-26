@@ -104,7 +104,8 @@ long <- wth_import$...6[4]
 
 wth_data_time <- wth_data %>% 
   mutate(date = mdy(paste(month, day, year)), 
-         precip_time_of_beginning_conv = format(times(as.numeric(precip_time_of_beginning))),
+         precip_time_of_beginning = format(times(as.numeric(precip_time_of_beginning))),
+         precip_time_of_ending = format(times(as.numeric(precip_time_of_ending))),
          location = rep(location, nrow(.)),
          county = rep(county, nrow(.)),
          state = rep(state, nrow(.)),
@@ -112,6 +113,18 @@ wth_data_time <- wth_data %>%
          long= rep(long, nrow(.))) %>%
   subset(select = -c(day))
 
+## Possibilities to coerce precip begin and end times to include character values when needed
+
+precip_time_of_ending = (if(is.numeric(precip_time_of_ending)){
+  precip_time_of_ending = format(times(as.numeric(precip_time_of_ending)))
+} else {precip_time_of_ending = precip_time_of_ending})
+
+wth_data_time <- wth_data %>% 
+  mutate(precip_time_of_ending = ifelse(is.numeric(precip_time_of_ending),
+                               precip_time_of_ending = format(times(as.numeric(precip_time_of_ending))),
+                               precip_time_of_ending = precip_time_of_ending))  
+    
+   
 ## Reorder columns into more logical format
 wth_data_time %>% 
   select(date, location, county, state, lat, long, everything())
