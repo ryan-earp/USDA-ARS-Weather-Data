@@ -74,6 +74,7 @@ wdata %>%
 
 
 ## Import entire excel file
+## Start function here
 
 wth_import <- read_xlsx("data/raw/Weather_1940-01.xlsx",
                         col_names = FALSE,
@@ -105,7 +106,9 @@ long <- wth_import$...6[4]
 wth_data_time <- wth_data %>% 
   mutate(date = mdy(paste(month, day, year)), 
          precip_time_of_beginning = format(times(as.numeric(precip_time_of_beginning))),
-         precip_time_of_ending = format(times(as.numeric(precip_time_of_ending))),
+         precip_time_of_ending = ifelse(is.na(as.numeric(precip_time_of_ending)),
+                                        precip_time_of_ending,
+                                        format(times(as.numeric(precip_time_of_ending)))),
          location = rep(location, nrow(.)),
          county = rep(county, nrow(.)),
          state = rep(state, nrow(.)),
@@ -129,7 +132,4 @@ wth_data_time <- wth_data %>%
 wth_data_time %>% 
   select(date, location, county, state, lat, long, everything())
 
-wth_data_time %>% 
-  mutate(precip_time_of_beginning = precip_time_of_beginning %>% 
-           as.numeric() %>% 
-           times())
+## Return wth_data_time and end function
