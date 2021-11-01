@@ -68,11 +68,6 @@ wdata %>%
   filter(Tmax - Tmin != Trange)
 
 
-
-
-
-
-
 ## Import entire excel file
 ## Start function here
 
@@ -133,3 +128,18 @@ wth_data_time %>%
   select(date, location, county, state, lat, long, everything())
 
 ## Return wth_data_time and end function
+
+precip_beg_end <- function(data_file){
+  
+  data_file %>% 
+  mutate(precip_time_of_ending = ifelse(is.numeric(precip_time_of_ending),
+                                        precip_time_of_ending = format(times(as.numeric(precip_time_of_ending))),
+                                        precip_time_of_ending = precip_time_of_ending))
+}
+
+wth_time <- precip_beg_end(data_file = "wth_data")
+
+
+
+
+
