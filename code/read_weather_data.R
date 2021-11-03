@@ -54,8 +54,8 @@ wdata <- read_excel("data/raw/Weather_1940-01.xlsx",
 wdata$...2
 
 wdata <- read_excel("data/raw/Weather_1940-01.xlsx",
-                    range = "A30:D60", 
-                    col_names = cnames) %>% 
+                    range = "A30:D60",
+                    col_names = cnames) %>%
   mutate(year = year,
          month = month)
 
@@ -129,15 +129,27 @@ wth_data_time %>%
 
 ## Return wth_data_time and end function
 
-precip_beg_end <- function(data_file){
-  
-  data_file %>% 
-  mutate(precip_time_of_ending = ifelse(is.numeric(precip_time_of_ending),
-                                        precip_time_of_ending = format(times(as.numeric(precip_time_of_ending))),
-                                        precip_time_of_ending = precip_time_of_ending))
+date_loc <- function(data){
+  data %>% 
+    mutate(date = mdy(paste(month, day, year)), 
+           precip_time_of_beginning = format(times(as.numeric(precip_time_of_beginning))),
+           precip_time_of_ending = ifelse(is.na(as.numeric(precip_time_of_ending)),
+                                          precip_time_of_ending,
+                                          format(times(as.numeric(precip_time_of_ending)))),
+           location = rep(location, nrow(.)),
+           county = rep(county, nrow(.)),
+           state = rep(state, nrow(.)),
+           lat = rep(lat, nrow(.)),
+           long= rep(long, nrow(.))) %>%
+    subset(select = -c(day))
 }
 
-wth_time <- precip_beg_end(data_file = "wth_data")
+wth_time <- date_loc(data = wth_data)
+
+
+# Full Function
+
+
 
 
 
