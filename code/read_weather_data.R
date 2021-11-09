@@ -127,85 +127,83 @@ wth_data_time <- wth_data %>%
 wth_data_time %>% 
   select(date, location, county, state, lat, long, everything())
 
-## Return wth_data_time and end function
-
-date_loc <- function(data){
-  data %>% 
-    mutate(date = mdy(paste(month, day, year)), 
-           precip_time_of_beginning = format(times(as.numeric(precip_time_of_beginning))),
-           precip_time_of_ending = ifelse(is.na(as.numeric(precip_time_of_ending)),
-                                          precip_time_of_ending,
-                                          format(times(as.numeric(precip_time_of_ending)))),
-           location = rep(location, nrow(.)),
-           county = rep(county, nrow(.)),
-           state = rep(state, nrow(.)),
-           lat = rep(lat, nrow(.)),
-           long= rep(long, nrow(.))) %>%
-    subset(select = -c(day))
-}
-
-wth_time <- date_loc(data = wth_data)
 
 
-# Full Function
+# Full Function 1st attempt (no worky)
 
-wth_an
-wth_import <- read_xlsx("data/raw/Weather_1940-01.xlsx",
-                        col_names = FALSE,
-                        na = c("", "-"))
+import_wth <- function(data){
+  wth_orig <- read_xlsx(data, col_names = FALSE, na = c("", "-")) 
+  
 
-## Subset data section only and replace column names with correct names
-
-wth_data <- wth_import [c(30:60), c(1:14)] 
-
-headers <- c("day", "temp_maximum", "temp_minimum", "temp_range", "temp_set_max", 
+  
+   wth_data <- wth_orig [c(30:60), c(1:14)] 
+    names(wth_data) <- c("day", "temp_maximum", "temp_minimum", "temp_range", "temp_set_max", 
              "precip_time_of_beginning", "precip_time_of_ending", "precip_amount",
              "precip_snowfall_in_inches", "precip_snow_depth_tobs",
              "wind_dir_tobs", "weather_state_tobs", "wind_dir_day", "weather_state_day")
 
-names(wth_data) <- headers
+month <- wth_orig$...2[3]  
+year <- wth_orig$...4[3]  
+location <- wth_orig$...6[3]
+county <- wth_orig$...8[3] 
+state <- wth_orig$...2[4]  
+lat <- wth_orig$...4[4]
+long <- wth_orig$...6[4]
 
-## Create month/year variables and site specific information
-
-month <- wth_import$...2[3]
-year <- wth_import$...4[3]
-location <- wth_import$...6[3]
-county <- wth_import$...8[3]
-state <- wth_import$...2[4]
-lat <- wth_import$...4[4]
-long <- wth_import$...6[4]
-
-## Create new data set with full date and site specific info
-
-wth_data_time <- wth_data %>% 
+wth_data %>% 
   mutate(date = mdy(paste(month, day, year)), 
          precip_time_of_beginning = format(times(as.numeric(precip_time_of_beginning))),
          precip_time_of_ending = ifelse(is.na(as.numeric(precip_time_of_ending)),
                                         precip_time_of_ending,
                                         format(times(as.numeric(precip_time_of_ending)))),
-         location = rep(location, nrow(.)),
+         location = rep((wth_orig$...6[3]), nrow(.)),
          county = rep(county, nrow(.)),
          state = rep(state, nrow(.)),
          lat = rep(lat, nrow(.)),
          long= rep(long, nrow(.))) %>%
-  subset(select = -c(day))
-
-## Possibilities to coerce precip begin and end times to include character values when needed
-
-precip_time_of_ending = (if(is.numeric(precip_time_of_ending)){
-  precip_time_of_ending = format(times(as.numeric(precip_time_of_ending)))
-} else {precip_time_of_ending = precip_time_of_ending})
-
-wth_data_time <- wth_data %>% 
-  mutate(precip_time_of_ending = ifelse(is.numeric(precip_time_of_ending),
-                                        precip_time_of_ending = format(times(as.numeric(precip_time_of_ending))),
-                                        precip_time_of_ending = precip_time_of_ending))  
-
-
-## Reorder columns into more logical format
-wth_data_time %>% 
+  subset(select = -c(day)) %>% 
   select(date, location, county, state, lat, long, everything())
+    
+return(wth_data)
+}
 
 
+
+test <- import_wth("data/raw/Weather_1940-01.xlsx")
+
+head(test)
+
+
+
+# Full Function 2nd attempt (works minus some odd precip values and not sure how it handles months with dif number of days)
+import_wth_two <- function(data){
+  wdata <- read_excel(data,
+                      range = "A30:N60",
+                      col_names = c("day", "temp_maximum", "temp_minimum", "temp_range", "temp_set_max", 
+                                    "precip_time_of_beginning", "precip_time_of_ending", "precip_amount",
+                                    "precip_snowfall_in_inches", "precip_snow_depth_tobs",
+                                    "wind_dir_tobs", "weather_state_tobs", "wind_dir_day", "weather_state_day")) %>%
+    mutate(year = as.character(read_excel(data,
+                             range = "D3:D3", 
+                             col_names = FALSE)),
+           month = as.character(read_excel(data,
+                              range = "B3:B3", 
+                              col_names = FALSE)),
+           observer = as.character(read_excel(data,
+                                 range = "B64:B64", 
+                                 col_names = FALSE)),
+           date = mdy(paste(month, day, year)), 
+           precip_time_of_beginning = format(times(as.numeric(precip_time_of_beginning))),
+           precip_time_of_ending = ifelse(is.na(as.numeric(precip_time_of_ending)),
+                                          precip_time_of_ending,
+                                          format(times(as.numeric(precip_time_of_ending))))) %>% 
+    select(date, everything(), -c(day, month, year))
+    
+return(wdata)
+}
+
+
+test2 <- import_wth_two("data/raw/Weather_1940-01.xlsx")
+head(test)
 
 
