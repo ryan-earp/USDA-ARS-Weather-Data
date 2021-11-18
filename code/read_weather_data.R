@@ -3,6 +3,7 @@ library(tidyverse)
 library(lubridate)
 library(readxl)
 library(chron)
+library(readODS)
 
 # Read in file
 
@@ -73,7 +74,18 @@ return(wth_data)
 
 # Full Function 2nd attempt (works minus some odd precip values and not sure how it handles months with dif number of days)
 read_wth_data <- function(file_name){
-  raw <- read_excel(file_name, col_names = FALSE)
+  if(str_detect(file_name, "1937-11")){
+    sheet = "Nov. 1937"
+  }else{
+    sheet = 1
+  }
+  if(str_detect(file_name, "\\.ods$")){
+    raw <- read_ods(file_name, col_names = FALSE, sheet = sheet) %>% 
+      as_tibble() %>% 
+      mutate(across(where(is.numeric), .fns = as.character))
+  }else{
+    raw <- read_excel(file_name, col_names = FALSE, sheet = sheet)
+  }
   wdata <- raw[30:60, 1:14] %>% 
     rename_with(.fn = ~c("day", "temp_maximum", "temp_minimum", "temp_range", "temp_set_max", 
                     "precip_time_of_beginning", "precip_time_of_ending", "precip_amount",
