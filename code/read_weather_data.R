@@ -72,12 +72,43 @@ wth_data %>%
 return(wth_data)
 }
 
+coerce_sky_condition <- function(condition){
+  cond_list <- c("Cloudy", "Clear")
+  
+  clean_condition <- adist(condition, cond_list) %>% 
+    apply(1, which.min) %>% 
+    cond_list[.]
+  
+  return(clean_condition)
+}
+
+sanitize_year <- function(year){
+  if(year == "2021"){
+    year <- "1921"
+  }
+  return(year)
+}
+
+sanitize_month <- function(month){
+  if(month %in% c("Fabruary", "Feburary")){
+    month <- "February"
+  }else if(month %in% c("Semptember", "Spet.")){
+    month <- "September"
+  }
+  return(month)
+}
+
 # Full Function 2nd attempt (works minus some odd precip values and not sure how it handles months with dif number of days)
 read_wth_data <- function(file_name){
   if(str_detect(file_name, "1937-11")){
     sheet = "Nov. 1937"
   }else{
     sheet = 1
+  }
+  if(str_detect(file_name, "1896-01")){
+    cshift <- 1
+  }else{
+    cshift <- 0
   }
   if(str_detect(file_name, "\\.ods$")){
     raw <- read_ods(file_name, col_names = FALSE, sheet = sheet) %>% 
@@ -102,8 +133,8 @@ read_wth_data <- function(file_name){
                 .fn = ~str_c(.,"_orig")) %>% 
     rename_with(matches("_num$"),
                 .fn = ~str_remove(.,"_num$")) %>% 
-    mutate(year = as.character(raw[3, 4]),
-           month = as.character(raw[3,2]),
+    mutate(year = sanitize_year(as.character(raw[3, 4 + cshift])),
+           month = sanitize_month(as.character(raw[3, 2 + cshift])),
            observer = as.character(raw[64, 2]),
            date = mdy(paste(month, day, year)),
            precip_time_of_beginning = format(times(as.numeric(precip_time_of_beginning_orig))),

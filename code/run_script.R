@@ -7,10 +7,12 @@ source("code/read_weather_data.R")
    unlist() %>% 
    str_subset("(1893_04\\.xlsx)|(~\\$)", negate = TRUE) %>% 
    tibble(file_path = .) %>% 
-   mutate(imported_data = map(file_path, ~try(read_wth_data(.))))
+   mutate(imported_data = map(file_path, ~try(read_wth_data(.)))) %>% 
+   unnest(imported_data) %>% 
+   arrange(date)
  
- wth_data <- wth_data %>% 
-   unnest(imported_data)
- 
- write_csv(wth_data, "data/processed/imported_weather_data_1893-1940.csv")
+wth_data %>%
+   filter(!is.na(date)) %>% 
+   arrange(date) %>% 
+   write_csv("data/processed/imported_weather_data_1893-1940.csv")
  
