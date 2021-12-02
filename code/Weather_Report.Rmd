@@ -1,0 +1,112 @@
+---
+title: "Weather Data Report"
+author: "Phil Alderman, Ryan Earp, and Katherine Haile"
+date: "12/2/2021"
+output: html_document
+---
+                         
+# Wind Direction at Time of Observation (wind_dir_tobs)  
+            
+                 
+
+```{r wind_dir_tobs}
+
+
+
+```
+
+
+# Wind Direction for the Day (wind_dir_day)
+
+```{r wind_dir_day}
+
+```
+
+
+# Weather State at Time of Observation (weather_state_tobs)
+
+
+
+```{r weather_state_tobs}
+
+
+```
+
+# Wind Direction for the Day (wind_dir_day)
+
+
+
+```{r wind_dir_day}
+
+
+
+```
+
+
+# Maximum Temperature (temp_maximum)
+```{r temp_maximum}
+
+```
+
+
+# Minimum Temperature (temp_minimum)
+```{r temp_minimum}
+
+```
+
+
+# Temperature Range for the Day (temp_range)
+```{r temp_range}
+
+```
+
+
+# Temperature Set Max (temp_set_max)
+
+```{r temp_set_max}
+
+```
+
+# Precipitation Amount (precip_amount)
+There are six values found that were likely transcribed incorrectly from the original data sheet. Four of the highest values simply need a decimal placed before the first number to make them correct. The fifth and sixth incorrect values, which are the next highest ones in ranking order, are difficult to interpret from the original handwriting. However, these values are not correct when compared to the monthly totals that are listed. It may also be worthwhile to import the monthly totals entered in the data sheets and compare them to the calculated totals from each entry for each respective month, which would help ensure that there are no other mistyped data entries that are not as easily noticeable.
+```{r precip_amount}
+wth_data <- read_csv("data/processed\\imported_weather_data_1893-1940.csv")
+
+wth_data %>% 
+  ggplot()+
+  geom_line(aes(x = date, y = precip_amount)) 
+
+precip <- wth_data %>% 
+  select(date, precip_amount) %>% 
+  drop_na() %>% 
+  arrange(desc(precip_amount))
+```
+
+
+# Snowfall in Inches (precip_snowfall_in_inches)
+```{r precip_snowfall_in_inches}
+
+```
+
+
+# Snow Depth at Time of Observation (precip_snow_depth_tobs)
+```{r precip_snow_depth_tobs}
+
+```
+
+
+# Beginning Time of Precipitation (precip_time_of_beginning)
+```{r precip_time_of_beginning}
+
+```
+
+
+# Ending Time of Precipitation (precip_time_of_ending)
+```{r precip_time_of_ending}
+
+```
+
+
+
+
+
