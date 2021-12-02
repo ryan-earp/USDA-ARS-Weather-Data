@@ -12,7 +12,10 @@ library(tidyverse)
 wth_data <- read_csv("data/processed\\imported_weather_data_1893-1940.csv")
 
 wth_data %>% 
-  pull(wind_dir_day) %>% 
+  select(wind_dir_day) %>% 
+  summary()
+
+  pull(wind_dir_day) %>%
   unique()
 
 wth_data %>% 
@@ -28,6 +31,33 @@ coerce_sky <- function(condistion){
   cond_list
   
 }
+
+wth_data_precip <- wth_data %>% 
+  select(date, precip_amount, precip_amount_orig) %>% 
+  filter(precip_amount != precip_amount_orig)
+  
+wth_data_precip %>% 
+  ggplot()+
+  geom_line(aes(x = date, y = precip_amount)) +
+  geom_line(aes(x = date, y = precip_amount_orig))
+
+drop_na()
+         
+         
+wth_data %>% 
+  select()
+
+head(wth_data)
+
+
+precip_amount_orig
+
+wth_data %>% 
+  ggplot(aes(x = date, y = precip_amount))+
+  geom_line()
+
+
+
 
   
   
