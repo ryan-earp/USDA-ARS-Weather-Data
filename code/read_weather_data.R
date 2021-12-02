@@ -82,6 +82,23 @@ coerce_sky_condition <- function(condition){
   return(clean_condition)
 }
 
+sanitize_wind_dir <- function(wind_dir){
+  clean_wind_dir <- str_replace_all(wind_dir, c("( *\\& *)|( *– *)|( *\\+ *)|(;(?=[^ ]))" = "; ",
+                                                "Wind direction at time of observation" = "W",
+                                                "East" = "E",
+                                                "South" = "S",
+                                                "Sw" = "SW",
+                                                "SS" = "SW",
+                                                "ES" = "SE",
+                                                "Souh" = "S",
+                                                "NR" = "NE")) %>% 
+    na_if("-") %>% 
+    na_if("data Missing") %>% 
+    na_if("no entry") %>% 
+    na_if("None")
+  return(clean_wind_dir)
+}
+
 sanitize_year <- function(year){
   if(year == "2021"){
     year <- "1921"
@@ -140,7 +157,9 @@ read_wth_data <- function(file_name){
            precip_time_of_beginning = format(times(as.numeric(precip_time_of_beginning_orig))),
            precip_time_of_ending = ifelse(is.na(as.numeric(precip_time_of_ending_orig)),
                                           precip_time_of_ending_orig,
-                                          format(times(as.numeric(precip_time_of_ending_orig))))) %>% 
+                                          format(times(as.numeric(precip_time_of_ending_orig)))),
+           wind_dir_day = sanitize_wind_dir(wind_dir_day),
+           wind_dir_tobs = sanitize_wind_dir(wind_dir_tobs)) %>% 
     select(date, everything(), -c(day, month, year))
     
 return(wdata)

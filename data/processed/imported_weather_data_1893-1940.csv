@@ -4,14 +4,14 @@ data/raw/Weather Record/1893/Jan1893.ods,1893-01-02,49,27,22,NA,NA,NA,NA,NA,NA,N
 data/raw/Weather Record/1893/Jan1893.ods,1893-01-03,57,25,32,NA,NA,NA,NA,NA,NA,S,Partly Cloudy,S,Partly Cloudy,57,25,32,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
 data/raw/Weather Record/1893/Jan1893.ods,1893-01-04,58,34,24,NA,NA,NA,NA,NA,NA,N,Clear,N,Clear,58,34,24,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
 data/raw/Weather Record/1893/Jan1893.ods,1893-01-05,45,36,9,NA,NA,NA,NA,NA,NA,N,Clear,N,Clear,45,36,9,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
-data/raw/Weather Record/1893/Jan1893.ods,1893-01-06,49,21,28,NA,NA,NA,NA,NA,NA,S – SW,Clear,S – SW,Clear,49,21,28,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
-data/raw/Weather Record/1893/Jan1893.ods,1893-01-07,46,22,24,NA,NA,NA,NA,NA,NA,W&N,Clear,W&N,Clear,46,22,24,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
+data/raw/Weather Record/1893/Jan1893.ods,1893-01-06,49,21,28,NA,NA,NA,NA,NA,NA,S; SW,Clear,S; SW,Clear,49,21,28,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
+data/raw/Weather Record/1893/Jan1893.ods,1893-01-07,46,22,24,NA,NA,NA,NA,NA,NA,W; N,Clear,W; N,Clear,46,22,24,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
 data/raw/Weather Record/1893/Jan1893.ods,1893-01-08,45,17,28,NA,NA,NA,NA,NA,NA,S,Clear,S,Clear,45,17,28,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
 data/raw/Weather Record/1893/Jan1893.ods,1893-01-09,47,22,25,NA,NA,NA,NA,NA,NA,S,Clear,S,Clear,47,22,25,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
 data/raw/Weather Record/1893/Jan1893.ods,1893-01-10,43,22,21,NA,NA,NA,NA,NA,NA,SE,Clear,SE,Clear,43,22,21,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
 data/raw/Weather Record/1893/Jan1893.ods,1893-01-11,47,30,17,NA,NA,NA,NA,NA,NA,N,Clear,N,Clear,47,30,17,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
 data/raw/Weather Record/1893/Jan1893.ods,1893-01-12,45,21,24,NA,NA,NA,NA,NA,NA,W,Clear,W,Clear,45,21,24,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
-data/raw/Weather Record/1893/Jan1893.ods,1893-01-13,34,12,22,NA,NA,NA,NA,NA,NA,E&S,Clear,E&S,Clear,34,12,22,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
+data/raw/Weather Record/1893/Jan1893.ods,1893-01-13,34,12,22,NA,NA,NA,NA,NA,NA,E; S,Clear,E; S,Clear,34,12,22,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
 data/raw/Weather Record/1893/Jan1893.ods,1893-01-14,33,14,19,NA,NA,NA,NA,NA,NA,N,Clear,N,Clear,33,14,19,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
 data/raw/Weather Record/1893/Jan1893.ods,1893-01-15,33,9,24,NA,NA,NA,NA,NA,NA,NE,Clear,NE,Clear,33,9,24,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
 data/raw/Weather Record/1893/Jan1893.ods,1893-01-16,44,15,29,NA,6:00 AM,DN,0.52,4,NA,W,Clear,W,Clear,44,15,29,NA,0.52,4,NA,Rex B. Hendrix,"NA",DN
@@ -23,10 +23,10 @@ data/raw/Weather Record/1893/Jan1893.ods,1893-01-21,51,25,26,NA,NA,NA,NA,NA,NA,S
 data/raw/Weather Record/1893/Jan1893.ods,1893-01-22,58,24,34,NA,NA,NA,NA,NA,NA,W,Clear,SW,Clear,58,24,34,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
 data/raw/Weather Record/1893/Jan1893.ods,1893-01-23,53,31,22,NA,NA,NA,NA,NA,NA,SW,Clear,SW,Partly Cloudy,53,31,22,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
 data/raw/Weather Record/1893/Jan1893.ods,1893-01-24,68,29,39,NA,NA,NA,NA,NA,NA,W,Partly Cloudy,W,Partly Cloudy,68,29,39,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
-data/raw/Weather Record/1893/Jan1893.ods,1893-01-25,78,31,47,NA,NA,NA,NA,NA,NA,SW & S,Partly Cloudy,SW & S,Cloudy,78,31,47,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
+data/raw/Weather Record/1893/Jan1893.ods,1893-01-25,78,31,47,NA,NA,NA,NA,NA,NA,SW; S,Partly Cloudy,SW; S,Cloudy,78,31,47,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
 data/raw/Weather Record/1893/Jan1893.ods,1893-01-26,46,19,27,NA,NA,NA,NA,NA,NA,NE,Cloudy,NE,Cloudy,46,19,27,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
 data/raw/Weather Record/1893/Jan1893.ods,1893-01-27,48,18,30,NA,NA,NA,NA,NA,NA,E,Cloudy,E,Clear,48,18,30,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
-data/raw/Weather Record/1893/Jan1893.ods,1893-01-28,73,24,47,NA,NA,NA,NA,NA,NA,SW – N,Clear,SW – N,Cloudy,73,24,47,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
+data/raw/Weather Record/1893/Jan1893.ods,1893-01-28,73,24,47,NA,NA,NA,NA,NA,NA,SW; N,Clear,SW; N,Cloudy,73,24,47,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
 data/raw/Weather Record/1893/Jan1893.ods,1893-01-29,25,14,11,NA,NA,NA,NA,NA,NA,N,Cloudy,N,Partly Cloudy,25,14,11,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
 data/raw/Weather Record/1893/Jan1893.ods,1893-01-30,43,26,17,NA,NA,NA,NA,NA,NA,NE,Partly Cloudy,NE,Cloudy,43,26,17,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
 data/raw/Weather Record/1893/Jan1893.ods,1893-01-31,76,27,49,NA,NA,NA,NA,NA,NA,NE,Cloudy,NE,Clear,76,27,49,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
@@ -41,7 +41,7 @@ data/raw/Weather Record/1893/February 1893.ods,1893-02-08,27,8,19,NA,NA,NA,NA,NA
 data/raw/Weather Record/1893/February 1893.ods,1893-02-09,52,27,25,NA,NA,NA,NA,NA,NA,SW,Cloudy,SW,Cloudy,52,27,25,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
 data/raw/Weather Record/1893/February 1893.ods,1893-02-10,43,29,14,NA,7 AM,9 AM,T,T,NA,NE,Cloudy,NE,Cloudy,43,29,14,NA,NA,NA,NA,Rex B. Hendrix,"NA",9 AM
 data/raw/Weather Record/1893/February 1893.ods,1893-02-11,44,21,23,NA,NA,NA,NA,NA,NA,E,Clear,E,Clear,44,21,23,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
-data/raw/Weather Record/1893/February 1893.ods,1893-02-12,54,24,30,NA,NA,NA,NA,NA,NA,data Missing,Clear,data Missing,Clear,54,24,30,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
+data/raw/Weather Record/1893/February 1893.ods,1893-02-12,54,24,30,NA,NA,NA,NA,NA,NA,NA,Clear,NA,Clear,54,24,30,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
 data/raw/Weather Record/1893/February 1893.ods,1893-02-13,54,30,24,NA,NA,NA,NA,NA,NA,“,Clear,“,Clear,54,30,24,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
 data/raw/Weather Record/1893/February 1893.ods,1893-02-14,55,22,33,NA,NA,NA,NA,NA,NA,“,Clear,“,Clear,55,22,33,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
 data/raw/Weather Record/1893/February 1893.ods,1893-02-15,30,20,10,NA,NA,NA,NA,NA,NA,“,Cloudy,“,Cloudy,30,20,10,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
@@ -50,7 +50,7 @@ data/raw/Weather Record/1893/February 1893.ods,1893-02-17,51,33,18,NA,NA,NA,NA,N
 data/raw/Weather Record/1893/February 1893.ods,1893-02-18,56,28,28,NA,NA,NA,NA,NA,NA,“,Cloudy,“,Cloudy,56,28,28,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
 data/raw/Weather Record/1893/February 1893.ods,1893-02-19,66,31,35,NA,NA,NA,NA,NA,NA,“,Clear,“,Clear,66,31,35,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
 data/raw/Weather Record/1893/February 1893.ods,1893-02-20,62,38,24,NA,NA,NA,NA,NA,NA,E,Clear,E,Clear,62,38,24,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
-data/raw/Weather Record/1893/February 1893.ods,1893-02-21,53,33,20,NA,NA,NA,NA,NA,NA,no entry,Partly Cloudy,no entry,Partly Cloudy,53,33,20,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
+data/raw/Weather Record/1893/February 1893.ods,1893-02-21,53,33,20,NA,NA,NA,NA,NA,NA,NA,Partly Cloudy,NA,Partly Cloudy,53,33,20,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
 data/raw/Weather Record/1893/February 1893.ods,1893-02-22,73,25,48,NA,NA,NA,NA,NA,NA,“,Cloudy,“,Cloudy,73,25,48,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
 data/raw/Weather Record/1893/February 1893.ods,1893-02-23,64,36,28,NA,NA,NA,NA,NA,NA,“,Cloudy,“,Cloudy,64,36,28,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
 data/raw/Weather Record/1893/February 1893.ods,1893-02-24,54,30,24,NA,NA,NA,NA,NA,NA,“,Cloudy,“,Cloudy,54,30,24,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
@@ -97,9 +97,9 @@ data/raw/Weather Record/1893/April 1893.ods,1893-04-05,97,59,38,NA,NA,NA,NA,NA,N
 data/raw/Weather Record/1893/April 1893.ods,1893-04-06,100,66,34,NA,NA,NA,NA,NA,NA,S,Clear,S,Clear,100,66,34,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
 data/raw/Weather Record/1893/April 1893.ods,1893-04-07,93,70,23,NA,NA,NA,NA,NA,NA,S,Clear,S,Clear,93,70,23,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
 data/raw/Weather Record/1893/April 1893.ods,1893-04-08,67,55,12,NA,NA,NA,NA,NA,NA,NE,Partly Cloudy,NE,Partly Cloudy,67,55,12,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
-data/raw/Weather Record/1893/April 1893.ods,1893-04-09,55,47,8,NA,8 AM,5 PM,1.62,NA,NA,NE & N?,Cloudy,NE & N?,Cloudy,55,47,8,NA,1.62,NA,NA,Rex B. Hendrix,"NA",5 PM
+data/raw/Weather Record/1893/April 1893.ods,1893-04-09,55,47,8,NA,8 AM,5 PM,1.62,NA,NA,NE; N?,Cloudy,NE; N?,Cloudy,55,47,8,NA,1.62,NA,NA,Rex B. Hendrix,"NA",5 PM
 data/raw/Weather Record/1893/April 1893.ods,1893-04-10,55,46,9,NA,NA,NA,NA,NA,NA,NA,Cloudy,NA,Cloudy,55,46,9,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
-data/raw/Weather Record/1893/April 1893.ods,1893-04-11,87,55,32,NA,NA,NA,NA,NA,NA,S – SW – N,Partly Cloudy,S – SW – N,Partly Cloudy,87,55,32,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
+data/raw/Weather Record/1893/April 1893.ods,1893-04-11,87,55,32,NA,NA,NA,NA,NA,NA,S; SW; N,Partly Cloudy,S; SW; N,Partly Cloudy,87,55,32,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
 data/raw/Weather Record/1893/April 1893.ods,1893-04-12,75,43,32,NA,NA,NA,NA,NA,NA,NA,Clear,NA,Clear,75,43,32,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
 data/raw/Weather Record/1893/April 1893.ods,1893-04-13,68,43,25,NA,NA,NA,NA,NA,NA,NA,Partly Cloudy,NA,Partly Cloudy,68,43,25,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
 data/raw/Weather Record/1893/April 1893.ods,1893-04-14,59,36,23,NA,NA,NA,NA,NA,NA,NA,Clear,NA,Clear,59,36,23,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
@@ -113,7 +113,7 @@ data/raw/Weather Record/1893/April 1893.ods,1893-04-21,61,33,28,NA,NA,NA,NA,NA,N
 data/raw/Weather Record/1893/April 1893.ods,1893-04-22,64,36,28,NA,NA,NA,NA,NA,NA,NA,Clear,NA,Clear,64,36,28,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
 data/raw/Weather Record/1893/April 1893.ods,1893-04-23,69,34,35,NA,NA,NA,NA,NA,NA,NA,Partly Cloudy,NA,Partly Cloudy,69,34,35,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
 data/raw/Weather Record/1893/April 1893.ods,1893-04-24,89,56,33,NA,NA,NA,NA,NA,NA,NA,Clear,NA,Clear,89,56,33,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
-data/raw/Weather Record/1893/April 1893.ods,1893-04-25,85,55,30,NA,3 PM,6:30 PM,1.97,NA,NA,S – SW – N,Cloudy,S – SW – N,Cloudy,85,55,30,NA,1.97,NA,NA,Rex B. Hendrix,"NA",6:30 PM
+data/raw/Weather Record/1893/April 1893.ods,1893-04-25,85,55,30,NA,3 PM,6:30 PM,1.97,NA,NA,S; SW; N,Cloudy,S; SW; N,Cloudy,85,55,30,NA,1.97,NA,NA,Rex B. Hendrix,"NA",6:30 PM
 data/raw/Weather Record/1893/April 1893.ods,1893-04-26,68,46,22,NA,NA,NA,NA,NA,NA,NA,Clear,NA,Clear,68,46,22,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
 data/raw/Weather Record/1893/April 1893.ods,1893-04-27,75,44,31,NA,NA,NA,NA,NA,NA,NA,Clear,NA,Clear,75,44,31,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
 data/raw/Weather Record/1893/April 1893.ods,1893-04-28,87,63,24,NA,6:15PM,11 PM,1.23,NA,NA,NA,Partly Cloudy,NA,Partly Cloudy,87,63,24,NA,1.23,NA,NA,Rex B. Hendrix,"NA",11 PM
@@ -132,7 +132,7 @@ data/raw/Weather Record/1893/May 1893.ods,1893-05-10,82,66,16,NA,NA,8PM,0.1,NA,N
 data/raw/Weather Record/1893/May 1893.ods,1893-05-11,76,56,20,NA,7 AM,8 AM,0.3,NA,NA,NA,Partly Cloudy,N,Cloudy,76,56,20,NA,0.3,NA,NA,Rex B. Hendrix,"NA",8 AM
 data/raw/Weather Record/1893/May 1893.ods,1893-05-12,83,50,33,NA,NA,NA,NA,NA,NA,NA,Clear,N,Cloudy,83,50,33,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
 data/raw/Weather Record/1893/May 1893.ods,1893-05-13,75,59,16,NA,6:45 PM,10 PM,0.03,NA,NA,NA,Partly Cloudy,N,Cloudy,75,59,16,NA,0.03,NA,NA,Rex B. Hendrix,"NA",10 PM
-data/raw/Weather Record/1893/May 1893.ods,1893-05-14,72,63,9,NA,7 AM,NA,0.01,NA,NA,SE – SW,Cloudy,NW,Clear,72,63,9,NA,0.01,NA,NA,Rex B. Hendrix,"NA",NA
+data/raw/Weather Record/1893/May 1893.ods,1893-05-14,72,63,9,NA,7 AM,NA,0.01,NA,NA,SE; SW,Cloudy,NW,Clear,72,63,9,NA,0.01,NA,NA,Rex B. Hendrix,"NA",NA
 data/raw/Weather Record/1893/May 1893.ods,1893-05-15,78,54,24,NA,NA,NA,NA,NA,NA,NA,Clear,S,Clear,78,54,24,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
 data/raw/Weather Record/1893/May 1893.ods,1893-05-16,71,46,25,NA,NA,NA,NA,NA,NA,NA,Clear,NE,Partly Cloudy,71,46,25,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
 data/raw/Weather Record/1893/May 1893.ods,1893-05-17,76,48,28,NA,NA,NA,NA,NA,NA,NA,Clear,NE,Cloudy,76,48,28,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
@@ -170,8 +170,8 @@ data/raw/Weather Record/1893/June 1893.ods,1893-06-17,NA,NA,NA,NA,NA,NA,NA,NA,NA
 data/raw/Weather Record/1893/June 1893.ods,1893-06-18,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Clear,NA,Clear,NA,NA,NA,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
 data/raw/Weather Record/1893/June 1893.ods,1893-06-19,88,70,18,NA,NA,NA,NA,NA,NA,NA,Clear,NA,Clear,88,70,18,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
 data/raw/Weather Record/1893/June 1893.ods,1893-06-20,95,66,29,NA,NA,NA,NA,NA,NA,SE,Partly Cloudy,SE,Partly Cloudy,95,66,29,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
-data/raw/Weather Record/1893/June 1893.ods,1893-06-21,97,71,26,NA,11 PM,11:30 PM,0.42,NA,NA,S & N,Clear,S & N,Clear,97,71,26,NA,0.42,NA,NA,Rex B. Hendrix,"NA",11:30 PM
-data/raw/Weather Record/1893/June 1893.ods,1893-06-22,83,64,19,NA,NA,NA,NA,NA,NA,S & N,Clear,S & N,Clear,83,64,19,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
+data/raw/Weather Record/1893/June 1893.ods,1893-06-21,97,71,26,NA,11 PM,11:30 PM,0.42,NA,NA,S; N,Clear,S; N,Clear,97,71,26,NA,0.42,NA,NA,Rex B. Hendrix,"NA",11:30 PM
+data/raw/Weather Record/1893/June 1893.ods,1893-06-22,83,64,19,NA,NA,NA,NA,NA,NA,S; N,Clear,S; N,Clear,83,64,19,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
 data/raw/Weather Record/1893/June 1893.ods,1893-06-23,98,66,32,NA,NA,NA,NA,NA,NA,NA,Clear,NA,Clear,98,66,32,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
 data/raw/Weather Record/1893/June 1893.ods,1893-06-24,103,78,25,NA,NA,NA,NA,NA,NA,NA,Clear,NA,Clear,103,78,25,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
 data/raw/Weather Record/1893/June 1893.ods,1893-06-25,99,70,29,NA,NA,NA,NA,NA,NA,NA,Clear,NA,Clear,99,70,29,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
@@ -298,11 +298,11 @@ data/raw/Weather Record/1894/Weather_1894-04.ods,1894-04-25,79,46,33,NA,NA,NA,NA
 data/raw/Weather Record/1894/Weather_1894-04.ods,1894-04-26,79,54,25,NA,NA,NA,NA,NA,NA,SE; E,Partly Cloudy,SE; E,Partly Cloudy,79,54,25,NA,NA,NA,NA,JC Neal,"NA",NA
 data/raw/Weather Record/1894/Weather_1894-04.ods,1894-04-27,87,61,26,NA,8:30 AM,9:30 AM,T,NA,NA,SE; S,Cloudy,SE; S,Cloudy,87,61,26,NA,NA,NA,NA,JC Neal,"NA",9:30 AM
 data/raw/Weather Record/1894/Weather_1894-04.ods,1894-04-28,89,67,22,NA,NA,NA,1.3,NA,NA,S; W,Partly Cloudy,S; W,Partly Cloudy,89,67,22,NA,1.3,NA,NA,JC Neal,"NA",NA
-data/raw/Weather Record/1894/Weather_1894-04.ods,1894-04-29,69,59,10,NA,NA,NA,NA,NA,NA,W & SE,Cloudy,W & SE,Cloudy,69,59,10,NA,NA,NA,NA,JC Neal,"NA",NA
+data/raw/Weather Record/1894/Weather_1894-04.ods,1894-04-29,69,59,10,NA,NA,NA,NA,NA,NA,W; SE,Cloudy,W; SE,Cloudy,69,59,10,NA,NA,NA,NA,JC Neal,"NA",NA
 data/raw/Weather Record/1894/Weather_1894-04.ods,1894-04-30,77,59,18,NA,NA,NA,NA,NA,NA,S,Clear,S,Clear,77,59,18,NA,NA,NA,NA,JC Neal,"NA",NA
 data/raw/Weather Record/1894/Weather_1894-05.ods,1894-05-01,77,59,18,NA,NA,NA,NA,NA,NA,Calm,Clear,Calm,Clear,77,59,18,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
 data/raw/Weather Record/1894/Weather_1894-05.ods,1894-05-02,86,53,33,NA,?,?,NA,NA,NA,S,Clear,S,Clear,86,53,33,NA,NA,NA,NA,Rex B. Hendrix,"NA",?
-data/raw/Weather Record/1894/Weather_1894-05.ods,1894-05-03,74,61,13,NA,?,?,1.66,NA,NA,N & S,Cloudy,N & S,Cloudy,74,61,13,NA,1.66,NA,NA,Rex B. Hendrix,"NA",?
+data/raw/Weather Record/1894/Weather_1894-05.ods,1894-05-03,74,61,13,NA,?,?,1.66,NA,NA,N; S,Cloudy,N; S,Cloudy,74,61,13,NA,1.66,NA,NA,Rex B. Hendrix,"NA",?
 data/raw/Weather Record/1894/Weather_1894-05.ods,1894-05-04,82,66,16,NA,?,?,0.4,NA,NA,SW,Cloudy,SW,Cloudy,82,66,16,NA,0.4,NA,NA,Rex B. Hendrix,"NA",?
 data/raw/Weather Record/1894/Weather_1894-05.ods,1894-05-05,88,63,25,NA,NA,NA,NA,NA,NA,SE,Clear,SE,Clear,88,63,25,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
 data/raw/Weather Record/1894/Weather_1894-05.ods,1894-05-06,82,66,16,NA,NA,NA,NA,NA,NA,S,Clear,S,Clear,82,66,16,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
@@ -320,13 +320,13 @@ data/raw/Weather Record/1894/Weather_1894-05.ods,1894-05-17,82,66,16,NA,NA,NA,NA
 data/raw/Weather Record/1894/Weather_1894-05.ods,1894-05-18,63,48,15,NA,NA,NA,NA,NA,NA,N,Cloudy,N,Cloudy,63,48,15,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
 data/raw/Weather Record/1894/Weather_1894-05.ods,1894-05-19,64,38,26,NA,NA,NA,NA,NA,NA,N,Clear,N,Clear,64,38,26,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
 data/raw/Weather Record/1894/Weather_1894-05.ods,1894-05-20,69,36,33,NA,NA,NA,NA,NA,NA,N,Clear,N,Clear,69,36,33,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
-data/raw/Weather Record/1894/Weather_1894-05.ods,1894-05-21,74,43,31,NA,?,?,NA,NA,NA,E & N,Clear,E & N,Clear,74,43,31,NA,NA,NA,NA,Rex B. Hendrix,"NA",?
+data/raw/Weather Record/1894/Weather_1894-05.ods,1894-05-21,74,43,31,NA,?,?,NA,NA,NA,E; N,Clear,E; N,Clear,74,43,31,NA,NA,NA,NA,Rex B. Hendrix,"NA",?
 data/raw/Weather Record/1894/Weather_1894-05.ods,1894-05-22,78,11,34,NA,4:15 PM,5:15 PM,0.23,NA,NA,N,Clear,N,Clear,78,11,34,NA,0.23,NA,NA,Rex B. Hendrix,"NA",5:15 PM
 data/raw/Weather Record/1894/Weather_1894-05.ods,1894-05-23,66,55,11,NA,NA,NA,NA,NA,NA,N,Cloudy,N,Cloudy,66,55,11,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
 data/raw/Weather Record/1894/Weather_1894-05.ods,1894-05-24,76,53,23,NA,NA,NA,NA,NA,NA,NW,Clear,NW,Clear,76,53,23,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
-data/raw/Weather Record/1894/Weather_1894-05.ods,1894-05-25,88,49,39,NA,NA,NA,NA,NA,NA,N & S,Cloudy,N & S,Cloudy,88,49,39,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
+data/raw/Weather Record/1894/Weather_1894-05.ods,1894-05-25,88,49,39,NA,NA,NA,NA,NA,NA,N; S,Cloudy,N; S,Cloudy,88,49,39,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
 data/raw/Weather Record/1894/Weather_1894-05.ods,1894-05-26,85,51,34,NA,NA,NA,NA,NA,NA,S,Clear,S,Clear,85,51,34,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
-data/raw/Weather Record/1894/Weather_1894-05.ods,1894-05-27,92,58,34,NA,NA,NA,NA,NA,NA,S & E,Cloudy,S & E,Cloudy,92,58,34,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
+data/raw/Weather Record/1894/Weather_1894-05.ods,1894-05-27,92,58,34,NA,NA,NA,NA,NA,NA,S; E,Cloudy,S; E,Cloudy,92,58,34,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
 data/raw/Weather Record/1894/Weather_1894-05.ods,1894-05-28,80,61,19,NA,NA,NA,NA,NA,NA,E,Cloudy,E,Cloudy,80,61,19,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
 data/raw/Weather Record/1894/Weather_1894-05.ods,1894-05-29,85,63,22,NA,1:00 PM,11:00 PM,1.92,NA,NA,NE,Cloudy,NE,Cloudy,85,63,22,NA,1.92,NA,NA,Rex B. Hendrix,"NA",11:00 PM
 data/raw/Weather Record/1894/Weather_1894-05.ods,1894-05-30,79,60,19,NA,NA,NA,NA,NA,NA,E,Cloudy,E,Cloudy,79,60,19,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
@@ -345,8 +345,8 @@ data/raw/Weather Record/1894/Weather_1894-06.ods,1894-06-11,85,77,8,NA,NA,NA,NA,
 data/raw/Weather Record/1894/Weather_1894-06.ods,1894-06-12,88,65,23,NA,NA,NA,NA,NA,NA,S,Partly Cloudy,S,Partly Cloudy,88,65,23,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
 data/raw/Weather Record/1894/Weather_1894-06.ods,1894-06-13,86,64,22,NA,NA,NA,NA,NA,NA,S,Clear,S,Clear,86,64,22,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
 data/raw/Weather Record/1894/Weather_1894-06.ods,1894-06-14,85,60,25,NA,NA,NA,NA,NA,NA,S,Clear,S,Clear,85,60,25,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
-data/raw/Weather Record/1894/Weather_1894-06.ods,1894-06-15,78,66,12,NA,NA,NA,NA,NA,NA,S & N,Cloudy,S & N,Cloudy,78,66,12,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
-data/raw/Weather Record/1894/Weather_1894-06.ods,1894-06-16,87,65,22,NA,6:10 PM,9:00 PM,1.69,NA,NA,SE & W,Cloudy,SE & W,Cloudy,87,65,22,NA,1.69,NA,NA,Rex B. Hendrix,"NA",9:00 PM
+data/raw/Weather Record/1894/Weather_1894-06.ods,1894-06-15,78,66,12,NA,NA,NA,NA,NA,NA,S; N,Cloudy,S; N,Cloudy,78,66,12,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
+data/raw/Weather Record/1894/Weather_1894-06.ods,1894-06-16,87,65,22,NA,6:10 PM,9:00 PM,1.69,NA,NA,SE; W,Cloudy,SE; W,Cloudy,87,65,22,NA,1.69,NA,NA,Rex B. Hendrix,"NA",9:00 PM
 data/raw/Weather Record/1894/Weather_1894-06.ods,1894-06-17,86,63,23,NA,NA,NA,NA,NA,NA,S,Clear,S,Clear,86,63,23,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
 data/raw/Weather Record/1894/Weather_1894-06.ods,1894-06-18,89,69,20,NA,NA,NA,NA,NA,NA,S,Cloudy,S,Cloudy,89,69,20,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
 data/raw/Weather Record/1894/Weather_1894-06.ods,1894-06-19,89,71,18,NA,NA,NA,NA,NA,NA,SW,Partly Cloudy,SW,Partly Cloudy,89,71,18,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
@@ -381,8 +381,8 @@ data/raw/Weather Record/1894/Weather_1894-07.ods,1894-07-17,92,63,29,NA,NA,NA,NA
 data/raw/Weather Record/1894/Weather_1894-07.ods,1894-07-18,93,65,28,NA,NA,NA,NA,NA,NA,S,Partly Cloudy,S,Partly Cloudy,93,65,28,NA,NA,NA,NA,JC Neal,"NA",NA
 data/raw/Weather Record/1894/Weather_1894-07.ods,1894-07-19,90,71,19,NA,6:00 PM,8:00 PM,0.1,NA,NA,SW; W,Partly Cloudy,SW; W,Partly Cloudy,90,71,19,NA,0.1,NA,NA,JC Neal,"NA",8:00 PM
 data/raw/Weather Record/1894/Weather_1894-07.ods,1894-07-20,88,70,18,NA,NA,NA,NA,NA,NA,S,Clear,S,Clear,88,70,18,NA,NA,NA,NA,JC Neal,"NA",NA
-data/raw/Weather Record/1894/Weather_1894-07.ods,1894-07-21,88,61,27,NA,NA,NA,NA,NA,NA,N&E,Clear,N&E,Clear,88,61,27,NA,NA,NA,NA,JC Neal,"NA",NA
-data/raw/Weather Record/1894/Weather_1894-07.ods,1894-07-22,89,50,39,NA,5:00 AM,6:00 AM,0.03,NA,NA,E & S,Clear,E & S,Clear,89,50,39,NA,0.03,NA,NA,JC Neal,"NA",6:00 AM
+data/raw/Weather Record/1894/Weather_1894-07.ods,1894-07-21,88,61,27,NA,NA,NA,NA,NA,NA,N; E,Clear,N; E,Clear,88,61,27,NA,NA,NA,NA,JC Neal,"NA",NA
+data/raw/Weather Record/1894/Weather_1894-07.ods,1894-07-22,89,50,39,NA,5:00 AM,6:00 AM,0.03,NA,NA,E; S,Clear,E; S,Clear,89,50,39,NA,0.03,NA,NA,JC Neal,"NA",6:00 AM
 data/raw/Weather Record/1894/Weather_1894-07.ods,1894-07-23,96,51,45,NA,NA,NA,NA,NA,NA,S; SW,Clear,S; SW,Clear,96,51,45,NA,NA,NA,NA,JC Neal,"NA",NA
 data/raw/Weather Record/1894/Weather_1894-07.ods,1894-07-24,106,63,43,NA,NA,NA,NA,NA,NA,S,Clear,S,Clear,106,63,43,NA,NA,NA,NA,JC Neal,"NA",NA
 data/raw/Weather Record/1894/Weather_1894-07.ods,1894-07-25,106,66,40,NA,NA,NA,NA,NA,NA,S,Clear,S,Clear,106,66,40,NA,NA,NA,NA,JC Neal,"NA",NA
@@ -422,7 +422,7 @@ data/raw/Weather Record/1894/Weather_1894-08.ods,1894-08-27,92,59,33,NA,NA,NA,NA
 data/raw/Weather Record/1894/Weather_1894-08.ods,1894-08-28,94,62,32,NA,NA,NA,NA,NA,NA,S,Clear,S,Clear,94,62,32,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
 data/raw/Weather Record/1894/Weather_1894-08.ods,1894-08-29,96,61,35,NA,NA,NA,NA,NA,NA,S,Clear,S,Clear,96,61,35,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
 data/raw/Weather Record/1894/Weather_1894-08.ods,1894-08-30,95,62,33,NA,NA,NA,NA,NA,NA,S,Clear,S,Clear,95,62,33,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
-data/raw/Weather Record/1894/Weather_1894-08.ods,1894-08-31,93,61,32,NA,NA,NA,NA,NA,NA,E & S,Partly Cloudy,E & S,Partly Cloudy,93,61,32,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
+data/raw/Weather Record/1894/Weather_1894-08.ods,1894-08-31,93,61,32,NA,NA,NA,NA,NA,NA,E; S,Partly Cloudy,E; S,Partly Cloudy,93,61,32,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
 data/raw/Weather Record/1894/Weather_1894-09.ods,1894-09-01,87,69,18,NA,NA,NA,NA,NA,NA,S,Clear,S,Clear,87,69,18,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
 data/raw/Weather Record/1894/Weather_1894-09.ods,1894-09-02,98,71,27,NA,NA,NA,NA,NA,NA,S,Clear,S,Clear,98,71,27,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
 data/raw/Weather Record/1894/Weather_1894-09.ods,1894-09-03,99,72,27,NA,NA,NA,NA,NA,NA,S,Clear,S,Clear,99,72,27,NA,NA,NA,NA,Rex B. Hendrix,"NA",NA
@@ -699,7 +699,7 @@ data/raw/Weather Record/1895/Weather_1895-09.ods,1895-09-28,73,51,22,NA,NA,NA,NA
 data/raw/Weather Record/1895/Weather_1895-09.ods,1895-09-29,65,38,27,NA,NA,NA,NA,NA,NA,NE,Clear,NE,Clear,65,38,27,NA,NA,NA,NA,J. C. Neal,"NA",NA
 data/raw/Weather Record/1895/Weather_1895-09.ods,1895-09-30,60,36,24,NA,NA,NA,NA,NA,NA,SE; NE,Clear,SE; NE,Clear,60,36,24,NA,NA,NA,NA,J. C. Neal,"NA",NA
 data/raw/Weather Record/1895/Weather_1895-10.ods,1895-10-01,69,32,37,NA,NA,NA,NA,NA,NA,S,Clear,S,Clear,69,32,37,NA,NA,NA,NA,J. C. Neal,"NA",NA
-data/raw/Weather Record/1895/Weather_1895-10.ods,1895-10-02,73,40,33,NA,NA,NA,NA,NA,NA,S;N,Clear,S;N,Clear,73,40,33,NA,NA,NA,NA,J. C. Neal,"NA",NA
+data/raw/Weather Record/1895/Weather_1895-10.ods,1895-10-02,73,40,33,NA,NA,NA,NA,NA,NA,S; N,Clear,S; N,Clear,73,40,33,NA,NA,NA,NA,J. C. Neal,"NA",NA
 data/raw/Weather Record/1895/Weather_1895-10.ods,1895-10-03,61,53,8,NA,5:30 PM,'3 ?,0.02,NA,NA,SE,Cloudy,SE,Cloudy,61,53,8,NA,0.02,NA,NA,J. C. Neal,"NA",'3 ?
 data/raw/Weather Record/1895/Weather_1895-10.ods,1895-10-04,67,55,12,NA,4 ?,7?,0.38,NA,NA,SE,Cloudy,SE,Cloudy,67,55,12,NA,0.38,NA,NA,J. C. Neal,"NA",7?
 data/raw/Weather Record/1895/Weather_1895-10.ods,1895-10-05,73,59,14,NA,2:30 AM,3:00 AM,T,NA,NA,E,Cloudy,E,Cloudy,73,59,14,NA,NA,NA,NA,J. C. Neal,"NA",3:00 AM
@@ -838,8 +838,8 @@ data/raw/Weather Record/1896/Weather_1896-02.ods,1896-02-14,63,31,32,NA,NA,NA,NA
 data/raw/Weather Record/1896/Weather_1896-02.ods,1896-02-15,61,37,24,NA,NA,NA,NA,NA,NA,N,Clear,N,Clear,61,37,24,NA,NA,NA,NA,A. N. Candell,"NA",NA
 data/raw/Weather Record/1896/Weather_1896-02.ods,1896-02-16,50,22,28,NA,NA,NA,NA,NA,NA,NE,Clear,NE,Clear,50,22,28,NA,NA,NA,NA,A. N. Candell,"NA",NA
 data/raw/Weather Record/1896/Weather_1896-02.ods,1896-02-17,58,18,40,NA,NA,NA,NA,NA,NA,S,Clear,S,Clear,58,18,40,NA,NA,NA,NA,A. N. Candell,"NA",NA
-data/raw/Weather Record/1896/Weather_1896-02.ods,1896-02-18,59,27,32,NA,NA,NA,NA,NA,NA,Wind direction at time of observation,Clear,Wind direction at time of observation,Clear,59,27,32,NA,NA,NA,NA,A. N. Candell,"NA",NA
-data/raw/Weather Record/1896/Weather_1896-02.ods,1896-02-19,63,31,32,NA,NA,NA,NA,NA,NA,Wind direction at time of observation,Clear,Wind direction at time of observation,Clear,63,31,32,NA,NA,NA,NA,A. N. Candell,"NA",NA
+data/raw/Weather Record/1896/Weather_1896-02.ods,1896-02-18,59,27,32,NA,NA,NA,NA,NA,NA,W,Clear,W,Clear,59,27,32,NA,NA,NA,NA,A. N. Candell,"NA",NA
+data/raw/Weather Record/1896/Weather_1896-02.ods,1896-02-19,63,31,32,NA,NA,NA,NA,NA,NA,W,Clear,W,Clear,63,31,32,NA,NA,NA,NA,A. N. Candell,"NA",NA
 data/raw/Weather Record/1896/Weather_1896-02.ods,1896-02-20,60,24,36,NA,NA,NA,NA,NA,NA,E,Clear,E,Clear,60,24,36,NA,NA,NA,NA,A. N. Candell,"NA",NA
 data/raw/Weather Record/1896/Weather_1896-02.ods,1896-02-21,60,20,40,NA,NA,NA,NA,NA,NA,S,Partly Cloudy,S,Partly Cloudy,60,20,40,NA,NA,NA,NA,A. N. Candell,"NA",NA
 data/raw/Weather Record/1896/Weather_1896-02.ods,1896-02-22,57,40,17,NA,1:00 AM,5:00 AM,0.19,NA,NA,S,Cloudy,S,Cloudy,57,40,17,NA,0.19,NA,NA,A. N. Candell,"NA",5:00 AM
@@ -1140,7 +1140,7 @@ data/raw/Weather Record/1897/Weather_1897-01.ods,1897-01-12,48,34,14,NA,10:00 AM
 data/raw/Weather Record/1897/Weather_1897-01.ods,1897-01-13,55,39,16,NA,NA,NA,NA,NA,NA,N,Clear,N,Clear,55,39,16,NA,NA,NA,NA,A W Candell,"NA",NA
 data/raw/Weather Record/1897/Weather_1897-01.ods,1897-01-14,47,28,19,NA,NA,NA,NA,NA,NA,NE,Cloudy,NE,Cloudy,47,28,19,NA,NA,NA,NA,A W Candell,"NA",NA
 data/raw/Weather Record/1897/Weather_1897-01.ods,1897-01-15,48,30,18,NA,NA,NA,NA,NA,NA,S,Cloudy,S,Cloudy,48,30,18,NA,NA,NA,NA,A W Candell,"NA",NA
-data/raw/Weather Record/1897/Weather_1897-01.ods,1897-01-16,59,44,15,NA,12:00 PM,3:00 PM,0.25,NA,NA,Sw,Cloudy,Sw,Cloudy,59,44,15,NA,0.25,NA,NA,A W Candell,"NA",3:00 PM
+data/raw/Weather Record/1897/Weather_1897-01.ods,1897-01-16,59,44,15,NA,12:00 PM,3:00 PM,0.25,NA,NA,SW,Cloudy,SW,Cloudy,59,44,15,NA,0.25,NA,NA,A W Candell,"NA",3:00 PM
 data/raw/Weather Record/1897/Weather_1897-01.ods,1897-01-17,57,35,22,NA,NA,NA,NA,NA,NA,N,Clear,N,Clear,57,35,22,NA,NA,NA,NA,A W Candell,"NA",NA
 data/raw/Weather Record/1897/Weather_1897-01.ods,1897-01-18,50,22,28,NA,NA,NA,NA,NA,NA,SW,Clear,SW,Clear,50,22,28,NA,NA,NA,NA,A W Candell,"NA",NA
 data/raw/Weather Record/1897/Weather_1897-01.ods,1897-01-19,41,29,12,NA,NA,NA,NA,NA,NA,E,Cloudy,E,Cloudy,41,29,12,NA,NA,NA,NA,A W Candell,"NA",NA
@@ -1435,7 +1435,7 @@ data/raw/Weather Record/1897/Weather_1897-11.ods,1897-11-03,76,36,40,NA,10:00 AM
 data/raw/Weather Record/1897/Weather_1897-11.ods,1897-11-04,65,44,21,NA,NA,NA,NA,NA,NA,W,Cloudy,W,Cloudy,65,44,21,NA,NA,NA,NA,N. T. Gilbert,"NA",NA
 data/raw/Weather Record/1897/Weather_1897-11.ods,1897-11-05,54,31,23,NA,NA,NA,NA,NA,NA,N,Clear,N,Clear,54,31,23,NA,NA,NA,NA,N. T. Gilbert,"NA",NA
 data/raw/Weather Record/1897/Weather_1897-11.ods,1897-11-06,52,33,19,NA,10:00 AM,12:00 AM,0.02,NA,NA,SE,Cloudy,SE,Cloudy,52,33,19,NA,0.02,NA,NA,N. T. Gilbert,"NA",12:00 AM
-data/raw/Weather Record/1897/Weather_1897-11.ods,1897-11-07,78,55,23,NA,NA,NA,NA,NA,NA,SS,Partlly Cloudy,SS,Partlly Cloudy,78,55,23,NA,NA,NA,NA,N. T. Gilbert,"NA",NA
+data/raw/Weather Record/1897/Weather_1897-11.ods,1897-11-07,78,55,23,NA,NA,NA,NA,NA,NA,SW,Partlly Cloudy,SW,Partlly Cloudy,78,55,23,NA,NA,NA,NA,N. T. Gilbert,"NA",NA
 data/raw/Weather Record/1897/Weather_1897-11.ods,1897-11-08,58,44,14,NA,NA,NA,NA,NA,NA,W,Clear,W,Clear,58,44,14,NA,NA,NA,NA,N. T. Gilbert,"NA",NA
 data/raw/Weather Record/1897/Weather_1897-11.ods,1897-11-09,56,26,30,NA,NA,NA,NA,NA,NA,W,Clear,W,Clear,56,26,30,NA,NA,NA,NA,N. T. Gilbert,"NA",NA
 data/raw/Weather Record/1897/Weather_1897-11.ods,1897-11-10,68,28,40,NA,NA,NA,NA,NA,NA,N,Clear,N,Clear,68,28,40,NA,NA,NA,NA,N. T. Gilbert,"NA",NA
@@ -2409,7 +2409,7 @@ data/raw/Weather Record/1900/Weather_1900-07.xlsx,1900-07-05,86,67,19,NA,DN,6:00
 data/raw/Weather Record/1900/Weather_1900-07.xlsx,1900-07-06,90,73,17,NA,NA,NA,NA,NA,NA,NA,NA,S,Clear,90,73,17,NA,NA,NA,NA,Dgd. JG Kerr,"NA",NA
 data/raw/Weather Record/1900/Weather_1900-07.xlsx,1900-07-07,89,76,13,NA,NA,NA,NA,NA,NA,NA,NA,SW,Clear,89,76,13,NA,NA,NA,NA,Dgd. JG Kerr,"NA",NA
 data/raw/Weather Record/1900/Weather_1900-07.xlsx,1900-07-08,88,72,16,NA,NA,NA,NA,NA,NA,NA,NA,SE,Clear,88,72,16,NA,NA,NA,NA,Dgd. JG Kerr,"NA",NA
-data/raw/Weather Record/1900/Weather_1900-07.xlsx,1900-07-09,94,72,22,NA,NA,NA,NA,NA,NA,NA,NA,ES,Clear,94,72,22,NA,NA,NA,NA,Dgd. JG Kerr,"NA",NA
+data/raw/Weather Record/1900/Weather_1900-07.xlsx,1900-07-09,94,72,22,NA,NA,NA,NA,NA,NA,NA,NA,SE,Clear,94,72,22,NA,NA,NA,NA,Dgd. JG Kerr,"NA",NA
 data/raw/Weather Record/1900/Weather_1900-07.xlsx,1900-07-10,96,73,23,NA,NA,NA,NA,NA,NA,NA,NA,S,Clear,96,73,23,NA,NA,NA,NA,Dgd. JG Kerr,"NA",NA
 data/raw/Weather Record/1900/Weather_1900-07.xlsx,1900-07-11,97,71,26,NA,NA,NA,NA,NA,NA,NA,NA,SW,Clear,97,71,26,NA,NA,NA,NA,Dgd. JG Kerr,"NA",NA
 data/raw/Weather Record/1900/Weather_1900-07.xlsx,1900-07-12,97,69,28,NA,NA,NA,NA,NA,NA,NA,NA,SE,Clear,97,69,28,NA,NA,NA,NA,Dgd. JG Kerr,"NA",NA
@@ -2456,7 +2456,7 @@ data/raw/Weather Record/1900/Weather_1900-08.xlsx,1900-08-21,101,76,25,NA,NA,NA,
 data/raw/Weather Record/1900/Weather_1900-08.xlsx,1900-08-22,97,78,19,NA,NA,NA,NA,NA,NA,NA,NA,SW,Partly Cloudy,97,78,19,NA,NA,NA,NA,Dgd WC. Pray,"NA",NA
 data/raw/Weather Record/1900/Weather_1900-08.xlsx,1900-08-23,91,71,20,NA,7:00AM,9:00AM,0.1,NA,NA,NA,NA,S,Partly Cloudy,91,71,20,NA,0.1,NA,NA,Dgd WC. Pray,"NA",9:00AM
 data/raw/Weather Record/1900/Weather_1900-08.xlsx,1900-08-24,98,76,22,NA,NA,NA,NA,NA,NA,NA,NA,S,Partly Cloudy,98,76,22,NA,NA,NA,NA,Dgd WC. Pray,"NA",NA
-data/raw/Weather Record/1900/Weather_1900-08.xlsx,1900-08-25,99,76,23,NA,NA,NA,NA,NA,NA,NA,NA,N+S,Partly Cloudy,99,76,23,NA,NA,NA,NA,Dgd WC. Pray,"NA",NA
+data/raw/Weather Record/1900/Weather_1900-08.xlsx,1900-08-25,99,76,23,NA,NA,NA,NA,NA,NA,NA,NA,N; S,Partly Cloudy,99,76,23,NA,NA,NA,NA,Dgd WC. Pray,"NA",NA
 data/raw/Weather Record/1900/Weather_1900-08.xlsx,1900-08-26,99,62,37,NA,NA,NA,NA,NA,NA,NA,NA,S,Partly Cloudy,99,62,37,NA,NA,NA,NA,Dgd WC. Pray,"NA",NA
 data/raw/Weather Record/1900/Weather_1900-08.xlsx,1900-08-27,101,73,28,NA,NA,NA,NA,NA,NA,NA,NA,SE,Partly Cloudy,101,73,28,NA,NA,NA,NA,Dgd WC. Pray,"NA",NA
 data/raw/Weather Record/1900/Weather_1900-08.xlsx,1900-08-28,98,65,33,NA,4:00AM,8:15AM,1.25,NA,NA,NA,NA,SE,Clear,98,65,33,NA,1.25,NA,NA,Dgd WC. Pray,"NA",8:15AM
@@ -2498,7 +2498,7 @@ data/raw/Weather Record/1900/Weather_1900-10.xlsx,1900-10-02,87,68,19,NA,NA,NA,N
 data/raw/Weather Record/1900/Weather_1900-10.xlsx,1900-10-03,88,67,21,NA,NA,NA,NA,NA,NA,NA,NA,S,Clear,88,67,21,NA,NA,NA,NA,Dgd JG Kerr,"NA",NA
 data/raw/Weather Record/1900/Weather_1900-10.xlsx,1900-10-04,88,67,21,NA,NA,NA,NA,NA,NA,NA,NA,S,Clear,88,67,21,NA,NA,NA,NA,Dgd JG Kerr,"NA",NA
 data/raw/Weather Record/1900/Weather_1900-10.xlsx,1900-10-05,87,67,20,NA,NA,NA,NA,NA,NA,NA,NA,S,Clear,87,67,20,NA,NA,NA,NA,Dgd JG Kerr,"NA",NA
-data/raw/Weather Record/1900/Weather_1900-10.xlsx,1900-10-06,88,68,20,NA,NA,NA,NA,NA,NA,NA,NA,SW+NW,Clear,88,68,20,NA,NA,NA,NA,Dgd JG Kerr,"NA",NA
+data/raw/Weather Record/1900/Weather_1900-10.xlsx,1900-10-06,88,68,20,NA,NA,NA,NA,NA,NA,NA,NA,SW; NW,Clear,88,68,20,NA,NA,NA,NA,Dgd JG Kerr,"NA",NA
 data/raw/Weather Record/1900/Weather_1900-10.xlsx,1900-10-07,75,48,27,NA,NA,NA,NA,NA,NA,NA,NA,N,Clear,75,48,27,NA,NA,NA,NA,Dgd JG Kerr,"NA",NA
 data/raw/Weather Record/1900/Weather_1900-10.xlsx,1900-10-08,65,40,25,NA,NA,NA,NA,NA,NA,NA,NA,NE,Clear,65,40,25,NA,NA,NA,NA,Dgd JG Kerr,"NA",NA
 data/raw/Weather Record/1900/Weather_1900-10.xlsx,1900-10-09,64,39,25,NA,NA,NA,NA,NA,NA,NA,NA,NE,Partly Cloudy,64,39,25,NA,NA,NA,NA,Dgd JG Kerr,"NA",NA
@@ -2513,7 +2513,7 @@ data/raw/Weather Record/1900/Weather_1900-10.xlsx,1900-10-17,60,52,8,NA,NA,NA,NA
 data/raw/Weather Record/1900/Weather_1900-10.xlsx,1900-10-18,67,55,12,NA,NA,NA,NA,NA,NA,NA,NA,S,Partly Cloudy,67,55,12,NA,NA,NA,NA,Dgd JG Kerr,"NA",NA
 data/raw/Weather Record/1900/Weather_1900-10.xlsx,1900-10-19,74,53,20,NA,NA,NA,NA,NA,NA,NA,NA,SE,Partly Cloudy,74,53,20,NA,NA,NA,NA,Dgd JG Kerr,"NA",NA
 data/raw/Weather Record/1900/Weather_1900-10.xlsx,1900-10-20,70,60,10,NA,NA,NA,NA,NA,NA,NA,NA,S,Cloudy,70,60,10,NA,NA,NA,NA,Dgd JG Kerr,"NA",NA
-data/raw/Weather Record/1900/Weather_1900-10.xlsx,1900-10-21,68,54,14,NA,10:00PM,DN,1.36,NA,NA,NA,NA,SW+NW,Cloudy,68,54,14,NA,1.36,NA,NA,Dgd JG Kerr,"NA",DN
+data/raw/Weather Record/1900/Weather_1900-10.xlsx,1900-10-21,68,54,14,NA,10:00PM,DN,1.36,NA,NA,NA,NA,SW; NW,Cloudy,68,54,14,NA,1.36,NA,NA,Dgd JG Kerr,"NA",DN
 data/raw/Weather Record/1900/Weather_1900-10.xlsx,1900-10-22,70,49,21,NA,NA,NA,NA,NA,NA,NA,NA,W,Clear,70,49,21,NA,NA,NA,NA,Dgd JG Kerr,"NA",NA
 data/raw/Weather Record/1900/Weather_1900-10.xlsx,1900-10-23,84,45,39,NA,NA,NA,NA,NA,NA,NA,NA,SW,Clear,84,45,39,NA,NA,NA,NA,Dgd JG Kerr,"NA",NA
 data/raw/Weather Record/1900/Weather_1900-10.xlsx,1900-10-24,80,50,30,NA,NA,NA,NA,NA,NA,NA,NA,S,Clear,80,50,30,NA,NA,NA,NA,Dgd JG Kerr,"NA",NA
@@ -2530,7 +2530,7 @@ data/raw/Weather Record/1900/Weather_1900-11.xlsx,1900-11-03,70,38,32,NA,NA,NA,N
 data/raw/Weather Record/1900/Weather_1900-11.xlsx,1900-11-04,78,50,28,NA,NA,NA,NA,NA,NA,NA,NA,SW,Clear,78,50,28,NA,NA,NA,NA,Dgd JG Kerr,"NA",NA
 data/raw/Weather Record/1900/Weather_1900-11.xlsx,1900-11-05,74,47,27,NA,NA,NA,NA,NA,NA,NA,NA,SE,Clear,74,47,27,NA,NA,NA,NA,Dgd JG Kerr,"NA",NA
 data/raw/Weather Record/1900/Weather_1900-11.xlsx,1900-11-06,71,43,28,NA,NA,NA,NA,NA,NA,NA,NA,S,Clear,71,43,28,NA,NA,NA,NA,Dgd JG Kerr,"NA",NA
-data/raw/Weather Record/1900/Weather_1900-11.xlsx,1900-11-07,70,41,29,NA,NA,NA,NA,NA,NA,NA,NA,S+N,Clear,70,41,29,NA,NA,NA,NA,Dgd JG Kerr,"NA",NA
+data/raw/Weather Record/1900/Weather_1900-11.xlsx,1900-11-07,70,41,29,NA,NA,NA,NA,NA,NA,NA,NA,S; N,Clear,70,41,29,NA,NA,NA,NA,Dgd JG Kerr,"NA",NA
 data/raw/Weather Record/1900/Weather_1900-11.xlsx,1900-11-08,57,39,18,NA,NA,NA,NA,NA,NA,NA,NA,NE,Clear,57,39,18,NA,NA,NA,NA,Dgd JG Kerr,"NA",NA
 data/raw/Weather Record/1900/Weather_1900-11.xlsx,1900-11-09,52,30,22,NA,NA,NA,NA,NA,NA,NA,NA,SE,Partly Cloudy,52,30,22,NA,NA,NA,NA,Dgd JG Kerr,"NA",NA
 data/raw/Weather Record/1900/Weather_1900-11.xlsx,1900-11-10,56,36,20,NA,NA,NA,NA,NA,NA,NA,NA,NW,Clear,56,36,20,NA,NA,NA,NA,Dgd JG Kerr,"NA",NA
@@ -2939,7 +2939,7 @@ data/raw/Weather Record/1901/Weather_1901-12.xlsx,1901-12-17,34,5,29,NA,6:00PM,7
 data/raw/Weather Record/1901/Weather_1901-12.xlsx,1901-12-18,41,14,27,NA,NA,NA,NA,NA,NA,NA,NA,S,Partly Cloudy,41,14,27,NA,NA,NA,NA,J.S. Malone,"NA",NA
 data/raw/Weather Record/1901/Weather_1901-12.xlsx,1901-12-19,40,12,28,NA,NA,NA,NA,NA,NA,NA,NA,N,Clear,40,12,28,NA,NA,NA,NA,J.S. Malone,"NA",NA
 data/raw/Weather Record/1901/Weather_1901-12.xlsx,1901-12-20,40,7,31,NA,NA,NA,NA,NA,NA,NA,NA,S,Clear,40,7,31,NA,NA,NA,NA,J.S. Malone,"NA",NA
-data/raw/Weather Record/1901/Weather_1901-12.xlsx,1901-12-21,-,-,-,NA,NA,NA,NA,NA,NA,NA,NA,-,-,NA,NA,NA,NA,NA,NA,NA,J.S. Malone,"NA",NA
+data/raw/Weather Record/1901/Weather_1901-12.xlsx,1901-12-21,-,-,-,NA,NA,NA,NA,NA,NA,NA,NA,NA,-,NA,NA,NA,NA,NA,NA,NA,J.S. Malone,"NA",NA
 data/raw/Weather Record/1901/Weather_1901-12.xlsx,1901-12-22,55,-,-,NA,NA,NA,NA,NA,NA,NA,NA,N,Clear,55,NA,NA,NA,NA,NA,NA,J.S. Malone,"NA",NA
 data/raw/Weather Record/1901/Weather_1901-12.xlsx,1901-12-23,64,-,-,NA,NA,NA,NA,NA,NA,NA,NA,S,Clear,64,NA,NA,NA,NA,NA,NA,J.S. Malone,"NA",NA
 data/raw/Weather Record/1901/Weather_1901-12.xlsx,1901-12-24,64,-,-,NA,NA,NA,NA,NA,NA,NA,NA,N,Cloudy,64,NA,NA,NA,NA,NA,NA,J.S. Malone,"NA",NA
@@ -4443,7 +4443,7 @@ data/raw/Weather Record/1905/Weather_1905-12.xlsx,1905-12-30,49,23,24,NA,NA,NA,N
 data/raw/Weather Record/1905/Weather_1905-12.xlsx,1905-12-31,47,30,10,NA,NA,NA,0.2,NA,NA,S,Cloudy,S,Cloudy,47,30,10,NA,0.2,NA,NA,Sgt Frank J. Clark,"NA",NA
 data/raw/Weather Record/1906/Weather_1906-01.xlsx,1906-01-01,40,30,6,NA,NA,NA,NA,NA,NA,SE,Cloudy,NA,NA,40,30,6,NA,NA,NA,NA,Frank J. Clark,"NA",NA
 data/raw/Weather Record/1906/Weather_1906-01.xlsx,1906-01-02,36,33,7,NA,D.N.,NA,0.7,NA,NA,NE,Cloudy,NA,NA,36,33,7,NA,0.7,NA,NA,Frank J. Clark,"NA",NA
-data/raw/Weather Record/1906/Weather_1906-01.xlsx,1906-01-03,40,30,6,NA,NA,D.N.,0.17,0.25,NA,NW,Cloudy,Snow & Rain,NA,40,30,6,NA,0.17,0.25,NA,Frank J. Clark,"NA",D.N.
+data/raw/Weather Record/1906/Weather_1906-01.xlsx,1906-01-03,40,30,6,NA,NA,D.N.,0.17,0.25,NA,NW,Cloudy,Snow; Rain,NA,40,30,6,NA,0.17,0.25,NA,Frank J. Clark,"NA",D.N.
 data/raw/Weather Record/1906/Weather_1906-01.xlsx,1906-01-04,36,27,14,NA,NA,NA,T,T,NA,W,Cloudy,NA,NA,36,27,14,NA,NA,NA,NA,Frank J. Clark,"NA",NA
 data/raw/Weather Record/1906/Weather_1906-01.xlsx,1906-01-05,41,28,27,NA,NA,NA,NA,NA,NA,W,Clear,NA,NA,41,28,27,NA,NA,NA,NA,Frank J. Clark,"NA",NA
 data/raw/Weather Record/1906/Weather_1906-01.xlsx,1906-01-06,55,30,30,NA,NA,NA,NA,NA,NA,SE,Clear,NA,NA,55,30,30,NA,NA,NA,NA,Frank J. Clark,"NA",NA
@@ -4513,11 +4513,11 @@ data/raw/Weather Record/1906/Weather_1906-03.xlsx,1906-03-10,59,24,23,NA,NA,NA,N
 data/raw/Weather Record/1906/Weather_1906-03.xlsx,1906-03-11,57,25,0,NA,NA,NA,NA,NA,NA,NE,Cloudy,NA,NA,57,25,0,NA,NA,NA,NA,Frank J. Clark,NA,NA
 data/raw/Weather Record/1906/Weather_1906-03.xlsx,1906-03-12,35,17,16,NA,0.33333333333333331,NA,T,T,NA,NE,Cloudy,Snow,NA,35,17,16,NA,NA,NA,NA,Frank J. Clark,08:00:00,NA
 data/raw/Weather Record/1906/Weather_1906-03.xlsx,1906-03-13,33,19,26,NA,NA,NA,T,NA,NA,NE,Cloudy,Mist,NA,33,19,26,NA,NA,NA,NA,Frank J. Clark,NA,NA
-data/raw/Weather Record/1906/Weather_1906-03.xlsx,1906-03-14,45,27,0,NA,NA,NA,T,NA,NA,NE,Cloudy,Misting & Fog,NA,45,27,0,NA,NA,NA,NA,Frank J. Clark,NA,NA
+data/raw/Weather Record/1906/Weather_1906-03.xlsx,1906-03-14,45,27,0,NA,NA,NA,T,NA,NA,NE,Cloudy,Misting; Fog,NA,45,27,0,NA,NA,NA,NA,Frank J. Clark,NA,NA
 data/raw/Weather Record/1906/Weather_1906-03.xlsx,1906-03-15,27,21,8,NA,NA,D.N.,T,NA,NA,NE,Cloudy,NA,NA,27,21,8,NA,NA,NA,NA,Frank J. Clark,NA,D.N.
 data/raw/Weather Record/1906/Weather_1906-03.xlsx,1906-03-16,29,22,9,NA,NA,NA,NA,NA,NA,NE,Cloudy,NA,NA,29,22,9,NA,NA,NA,NA,Frank J. Clark,NA,NA
 data/raw/Weather Record/1906/Weather_1906-03.xlsx,1906-03-17,31,20,17,NA,NA,NA,NA,NA,NA,NE,Cloudy,NA,NA,31,20,17,NA,NA,NA,NA,Frank J. Clark,NA,NA
-data/raw/Weather Record/1906/Weather_1906-03.xlsx,1906-03-18,37,21,14,NA,0.79166666666666663,NA,T,NA,NA,NE,Cloudy,Misting & Fog,NA,37,21,14,NA,NA,NA,NA,Frank J. Clark,19:00:00,NA
+data/raw/Weather Record/1906/Weather_1906-03.xlsx,1906-03-18,37,21,14,NA,0.79166666666666663,NA,T,NA,NA,NE,Cloudy,Misting; Fog,NA,37,21,14,NA,NA,NA,NA,Frank J. Clark,19:00:00,NA
 data/raw/Weather Record/1906/Weather_1906-03.xlsx,1906-03-19,35,22,13,NA,NA,D.N.,0.23,T,NA,NW,PartlyCloudy,NA,NA,35,22,13,NA,0.23,NA,NA,Frank J. Clark,NA,D.N.
 data/raw/Weather Record/1906/Weather_1906-03.xlsx,1906-03-20,35,18,38,NA,NA,NA,NA,NA,NA,SW,Cloudy,NA,NA,35,18,38,NA,NA,NA,NA,Frank J. Clark,NA,NA
 data/raw/Weather Record/1906/Weather_1906-03.xlsx,1906-03-21,56,20,44,NA,NA,NA,NA,NA,NA,SW,Clear,NA,NA,56,20,44,NA,NA,NA,NA,Frank J. Clark,NA,NA
@@ -4874,7 +4874,7 @@ data/raw/Weather Record/1907/Weather_1907-03.xlsx,1907-03-06,56,36,29,NA,NA,NA,N
 data/raw/Weather Record/1907/Weather_1907-03.xlsx,1907-03-07,65,46,14,NA,D.N.,NA,T,NA,NA,N,PartlyCloudy,NA,NA,65,46,14,NA,NA,NA,NA,J G. McCall,NA,NA
 data/raw/Weather Record/1907/Weather_1907-03.xlsx,1907-03-08,60,36,19,NA,NA,NA,NA,NA,NA,NE,PartlyCloudy,NA,NA,60,36,19,NA,NA,NA,NA,J G. McCall,NA,NA
 data/raw/Weather Record/1907/Weather_1907-03.xlsx,1907-03-09,55,38,32,NA,0.625,D.N.,0.4,NA,NA,SW,Cloudy,NA,NA,55,38,32,NA,0.4,NA,NA,J G. McCall,15:00:00,D.N.
-data/raw/Weather Record/1907/Weather_1907-03.xlsx,1907-03-10,70,36,24,NA,0.66666666666666663,0.70833333333333337,0.3,NA,NA,NW,PartlyCloudy,Hail &,Wind Storm,70,36,24,NA,0.3,NA,NA,J G. McCall,16:00:00,17:00:00
+data/raw/Weather Record/1907/Weather_1907-03.xlsx,1907-03-10,70,36,24,NA,0.66666666666666663,0.70833333333333337,0.3,NA,NA,NW,PartlyCloudy,Hail; ,Wind Storm,70,36,24,NA,0.3,NA,NA,J G. McCall,16:00:00,17:00:00
 data/raw/Weather Record/1907/Weather_1907-03.xlsx,1907-03-11,60,35,30,NA,NA,NA,NA,NA,NA,SE,PartlyCloudy,NA,NA,60,35,30,NA,NA,NA,NA,J G. McCall,NA,NA
 data/raw/Weather Record/1907/Weather_1907-03.xlsx,1907-03-12,65,38,30,NA,NA,NA,NA,NA,NA,SW,PartlyCloudy,NA,NA,65,38,30,NA,NA,NA,NA,J G. McCall,NA,NA
 data/raw/Weather Record/1907/Weather_1907-03.xlsx,1907-03-13,68,39,1,NA,NA,NA,NA,NA,NA,NW,PartlyCloudy,NA,NA,68,39,1,NA,NA,NA,NA,J G. McCall,NA,NA
@@ -4982,7 +4982,7 @@ data/raw/Weather Record/1907/Weather_1907-06.xlsx,1907-06-22,79,65,20,NA,NA,0.37
 data/raw/Weather Record/1907/Weather_1907-06.xlsx,1907-06-23,85,65,23,NA,D.N.,NA,0.8,NA,NA,SE,PartlyCloudy,Wind Storm,NA,85,65,23,NA,0.8,NA,NA,J. G. McCall,NA,NA
 data/raw/Weather Record/1907/Weather_1907-06.xlsx,1907-06-24,88,64,25,NA,NA,NA,NA,NA,NA,SW,Clear,NA,NA,88,64,25,NA,NA,NA,NA,J. G. McCall,NA,NA
 data/raw/Weather Record/1907/Weather_1907-06.xlsx,1907-06-25,89,67,22,NA,NA,NA,NA,NA,NA,S,PartlyCloudy,NA,NA,89,67,22,NA,NA,NA,NA,J. G. McCall,NA,NA
-data/raw/Weather Record/1907/Weather_1907-06.xlsx,1907-06-26,89,67,10,NA,0.70833333333333337,0.79166666666666663,1.75,NA,NA,N,PartlyCloudy,Thunder & Hail Storm,NA,89,67,10,NA,1.75,NA,NA,J. G. McCall,17:00:00,19:00:00
+data/raw/Weather Record/1907/Weather_1907-06.xlsx,1907-06-26,89,67,10,NA,0.70833333333333337,0.79166666666666663,1.75,NA,NA,N,PartlyCloudy,Thunder; Hail Storm,NA,89,67,10,NA,1.75,NA,NA,J. G. McCall,17:00:00,19:00:00
 data/raw/Weather Record/1907/Weather_1907-06.xlsx,1907-06-27,77,63,14,NA,0.29166666666666669,0.41666666666666669,1.28,NA,NA,NW,PartlyCloudy,NA,NA,77,63,14,NA,1.28,NA,NA,J. G. McCall,07:00:00,10:00:00
 data/raw/Weather Record/1907/Weather_1907-06.xlsx,1907-06-28,77,62,22,NA,NA,0.33333333333333331,0.28999999999999998,NA,NA,NW,PartlyCloudy,NA,NA,77,62,22,NA,0.29,NA,NA,J. G. McCall,NA,08:00:00
 data/raw/Weather Record/1907/Weather_1907-06.xlsx,1907-06-29,84,68,22,NA,NA,NA,NA,NA,NA,SW,Clear,NA,NA,84,68,22,NA,NA,NA,NA,J. G. McCall,NA,NA
@@ -5216,7 +5216,7 @@ data/raw/Weather Record/1908/Weather_1908-02.xlsx,1908-02-11,49,33,16,NA,NA,NA,N
 data/raw/Weather Record/1908/Weather_1908-02.xlsx,1908-02-12,49,42,19,NA,0.41666666666666669,0.79166666666666663,1,NA,NA,SW,Cloudy,NA,NA,49,42,19,NA,1,NA,NA,J. G. McCall,10:00:00,19:00:00
 data/raw/Weather Record/1908/Weather_1908-02.xlsx,1908-02-13,61,37,21,NA,NA,NA,NA,NA,NA,SW,Clear,NA,NA,61,37,21,NA,NA,NA,NA,J. G. McCall,NA,NA
 data/raw/Weather Record/1908/Weather_1908-02.xlsx,1908-02-14,58,39,1,NA,0.79166666666666663,0.29166666666666669,1.02,NA,NA,S,Cloudy,Hail,NA,58,39,1,NA,1.02,NA,NA,J. G. McCall,19:00:00,07:00:00
-data/raw/Weather Record/1908/Weather_1908-02.xlsx,1908-02-15,40,20,25,NA,0.375,0.66666666666666663,0.95,2,2,NW,Cloudy,Thunder Sleek & Snow,NA,40,20,25,NA,0.95,2,2,J. G. McCall,09:00:00,16:00:00
+data/raw/Weather Record/1908/Weather_1908-02.xlsx,1908-02-15,40,20,25,NA,0.375,0.66666666666666663,0.95,2,2,NW,Cloudy,Thunder Sleek; Snow,NA,40,20,25,NA,0.95,2,2,J. G. McCall,09:00:00,16:00:00
 data/raw/Weather Record/1908/Weather_1908-02.xlsx,1908-02-16,45,21,30,NA,NA,NA,NA,NA,NA,SW,Clear,NA,NA,45,21,30,NA,NA,NA,NA,J. G. McCall,NA,NA
 data/raw/Weather Record/1908/Weather_1908-02.xlsx,1908-02-17,51,35,28,NA,NA,NA,NA,NA,NA,SE,Clear,NA,NA,51,35,28,NA,NA,NA,NA,J. G. McCall,NA,NA
 data/raw/Weather Record/1908/Weather_1908-02.xlsx,1908-02-18,63,34,0,NA,0.375,D.N.,0.38,NA,NA,SE,Clear,NA,NA,63,34,0,NA,0.38,NA,NA,J. G. McCall,09:00:00,D.N.
@@ -5233,7 +5233,7 @@ data/raw/Weather Record/1908/Weather_1908-02.xlsx,1908-02-28,60,31,44,NA,D.N.,NA
 data/raw/Weather Record/1908/Weather_1908-02.xlsx,1908-02-29,75,50,18,NA,NA,NA,NA,NA,NA,SW,Clear,NA,NA,75,50,18,NA,NA,NA,NA,J. G. McCall,NA,NA
 data/raw/Weather Record/1908/Weather_1908-03.xlsx,1908-03-01,68,40,15,NA,NA,NA,NA,NA,NA,SW,Clear,NA,NA,68,40,15,NA,NA,NA,NA,J. G. McCall,NA,NA
 data/raw/Weather Record/1908/Weather_1908-03.xlsx,1908-03-02,55,36,22,NA,NA,NA,NA,NA,NA,N,PartlyCloudy,NA,NA,55,36,22,NA,NA,NA,NA,J. G. McCall,NA,NA
-data/raw/Weather Record/1908/Weather_1908-03.xlsx,1908-03-03,58,38,19,NA,D.N.,NA,0.04,NA,NA,N,Cloudy,Foggy & Misting,NA,58,38,19,NA,0.04,NA,NA,J. G. McCall,NA,NA
+data/raw/Weather Record/1908/Weather_1908-03.xlsx,1908-03-03,58,38,19,NA,D.N.,NA,0.04,NA,NA,N,Cloudy,Foggy; Misting,NA,58,38,19,NA,0.04,NA,NA,J. G. McCall,NA,NA
 data/raw/Weather Record/1908/Weather_1908-03.xlsx,1908-03-04,57,48,25,NA,NA,NA,NA,NA,NA,S,Cloudy,NA,NA,57,48,25,NA,NA,NA,NA,J. G. McCall,NA,NA
 data/raw/Weather Record/1908/Weather_1908-03.xlsx,1908-03-05,73,52,29,NA,NA,NA,NA,NA,NA,SW,PartlyCloudy,NA,NA,73,52,29,NA,NA,NA,NA,J. G. McCall,NA,NA
 data/raw/Weather Record/1908/Weather_1908-03.xlsx,1908-03-06,81,52,16,NA,NA,NA,NA,NA,NA,SW,Clear,NA,NA,81,52,16,NA,NA,NA,NA,J. G. McCall,NA,NA
@@ -5286,7 +5286,7 @@ data/raw/Weather Record/1908/Weather_1908-04.xlsx,1908-04-21,69,57,24,NA,0.375,0
 data/raw/Weather Record/1908/Weather_1908-04.xlsx,1908-04-22,81,69,12,NA,NA,NA,NA,NA,NA,SE,PartlyCloudy,Thunderstorms,NA,81,69,12,NA,NA,NA,NA,J. G. McCall,NA,NA
 data/raw/Weather Record/1908/Weather_1908-04.xlsx,1908-04-23,81,61,19,NA,7 AM; D.N.,0.33333333333333331,0.06,NA,NA,S,PartlyCloudy,NA,NA,81,61,19,NA,0.06,NA,NA,J. G. McCall,NA,08:00:00
 data/raw/Weather Record/1908/Weather_1908-04.xlsx,1908-04-24,80,58,16,NA,NA,0.33333333333333331,0.03,NA,NA,SW,PartlyCloudy,NA,NA,80,58,16,NA,0.03,NA,NA,J. G. McCall,NA,08:00:00
-data/raw/Weather Record/1908/Weather_1908-04.xlsx,1908-04-25,74,52,26,NA,NA,NA,NA,NA,NA,SW,PartlyCloudy,High Winds & Dust Storm,NA,74,52,26,NA,NA,NA,NA,J. G. McCall,NA,NA
+data/raw/Weather Record/1908/Weather_1908-04.xlsx,1908-04-25,74,52,26,NA,NA,NA,NA,NA,NA,SW,PartlyCloudy,High Winds; Dust Storm,NA,74,52,26,NA,NA,NA,NA,J. G. McCall,NA,NA
 data/raw/Weather Record/1908/Weather_1908-04.xlsx,1908-04-26,78,43,32,NA,D.N.,NA,0.4,NA,NA,NW,PartlyCloudy,NA,NA,78,43,32,NA,0.4,NA,NA,J. G. McCall,NA,NA
 data/raw/Weather Record/1908/Weather_1908-04.xlsx,1908-04-27,65,40,25,NA,NA,0.41666666666666669,0.21,NA,NA,NW,PartlyCloudy,NA,NA,65,40,25,NA,0.21,NA,NA,J. G. McCall,NA,10:00:00
 data/raw/Weather Record/1908/Weather_1908-04.xlsx,1908-04-28,65,40,23,NA,NA,NA,NA,NA,NA,NE,Clear,NA,NA,65,40,23,NA,NA,NA,NA,J. G. McCall,NA,NA
@@ -5309,7 +5309,7 @@ data/raw/Weather Record/1908/Weather_1908-05.xlsx,1908-05-14,69,58,24,NA,0.41666
 data/raw/Weather Record/1908/Weather_1908-05.xlsx,1908-05-15,82,60,20,NA,NA,NA,NA,NA,NA,S,Clear,NA,NA,82,60,20,NA,NA,NA,NA,John Sfeidel,NA,NA
 data/raw/Weather Record/1908/Weather_1908-05.xlsx,1908-05-16,80,65,18,NA,NA,NA,NA,NA,NA,S,PartlyCloudy,NA,NA,80,65,18,NA,NA,NA,NA,John Sfeidel,NA,NA
 data/raw/Weather Record/1908/Weather_1908-05.xlsx,1908-05-17,83,65,13,NA,NA,NA,NA,NA,NA,S,PartlyCloudy,NA,NA,83,65,13,NA,NA,NA,NA,John Sfeidel,NA,NA
-data/raw/Weather Record/1908/Weather_1908-05.xlsx,1908-05-18,79,58,27,NA,0.91666666666666663,D.N.,0.98,NA,NA,S,PartlyCloudy,Thuder & Wind Storm,NA,79,58,27,NA,0.98,NA,NA,John Sfeidel,22:00:00,D.N.
+data/raw/Weather Record/1908/Weather_1908-05.xlsx,1908-05-18,79,58,27,NA,0.91666666666666663,D.N.,0.98,NA,NA,S,PartlyCloudy,Thuder; Wind Storm,NA,79,58,27,NA,0.98,NA,NA,John Sfeidel,22:00:00,D.N.
 data/raw/Weather Record/1908/Weather_1908-05.xlsx,1908-05-19,85,61,27,NA,NA,NA,NA,NA,NA,N,Clear,NA,NA,85,61,27,NA,NA,NA,NA,John Sfeidel,NA,NA
 data/raw/Weather Record/1908/Weather_1908-05.xlsx,1908-05-20,88,68,19,NA,NA,NA,NA,NA,NA,S,Clear,NA,NA,88,68,19,NA,NA,NA,NA,John Sfeidel,NA,NA
 data/raw/Weather Record/1908/Weather_1908-05.xlsx,1908-05-21,87,72,3,NA,NA,NA,NA,NA,NA,S,Clear,NA,NA,87,72,3,NA,NA,NA,NA,John Sfeidel,NA,NA
@@ -6013,7 +6013,7 @@ data/raw/Weather Record/1910/Weather_1910-04.xlsx,1910-04-18,67,41,20,NA,NA,NA,N
 data/raw/Weather Record/1910/Weather_1910-04.xlsx,1910-04-19,61,36,29,NA,NA,NA,NA,NA,NA,NW,PartlyCloudy,NA,NA,61,36,29,NA,NA,NA,NA,J. M. Speidel,NA,NA
 data/raw/Weather Record/1910/Weather_1910-04.xlsx,1910-04-20,65,36,45,NA,NA,NA,NA,NA,NA,N,PartlyCloudy,NA,NA,65,36,45,NA,NA,NA,NA,J. M. Speidel,NA,NA
 data/raw/Weather Record/1910/Weather_1910-04.xlsx,1910-04-21,81,41,46,NA,NA,NA,NA,NA,NA,S,Clear,NA,NA,81,41,46,NA,NA,NA,NA,J. M. Speidel,NA,NA
-data/raw/Weather Record/1910/Weather_1910-04.xlsx,1910-04-22,87,52,20,NA,NA,NA,NA,NA,NA,S,Clear,Wind & Dust Storm,NA,87,52,20,NA,NA,NA,NA,J. M. Speidel,NA,NA
+data/raw/Weather Record/1910/Weather_1910-04.xlsx,1910-04-22,87,52,20,NA,NA,NA,NA,NA,NA,S,Clear,Wind; Dust Storm,NA,87,52,20,NA,NA,NA,NA,J. M. Speidel,NA,NA
 data/raw/Weather Record/1910/Weather_1910-04.xlsx,1910-04-23,72,42,22,NA,NA,NA,NA,NA,NA,N,Clear,NA,NA,72,42,22,NA,NA,NA,NA,J. M. Speidel,NA,NA
 data/raw/Weather Record/1910/Weather_1910-04.xlsx,1910-04-24,64,40,12,NA,NA,NA,NA,NA,NA,NW,Clear,NA,NA,64,40,12,NA,NA,NA,NA,J. M. Speidel,NA,NA
 data/raw/Weather Record/1910/Weather_1910-04.xlsx,1910-04-25,52,33,34,NA,NA,NA,NA,NA,NA,N,Clear,NA,NA,52,33,34,NA,NA,NA,NA,J. M. Speidel,NA,NA
@@ -7354,8 +7354,8 @@ data/raw/Weather Record/1913/Weather_1913-12.xlsx,1913-12-19,49,41,11,NA,2:00PM,
 data/raw/Weather Record/1913/Weather_1913-12.xlsx,1913-12-20,52,33,0,NA,9:00PM,10:30PM,0.18,1.5,NA,NW,Partly Cloudy,NA,NA,52,33,0,NA,0.18,1.5,NA,E. Jourtellatte,"NA",10:30PM
 data/raw/Weather Record/1913/Weather_1913-12.xlsx,1913-12-21,33,21,14,NA,NA,NA,NA,NA,NA,NW,Snowing,NA,NA,33,21,14,NA,NA,NA,NA,E. Jourtellatte,"NA",NA
 data/raw/Weather Record/1913/Weather_1913-12.xlsx,1913-12-22,35,23,9,NA,NA,NA,NA,NA,NA,SE,Partly Cloudy,NA,NA,35,23,9,NA,NA,NA,NA,E. Jourtellatte,"NA",NA
-data/raw/Weather Record/1913/Weather_1913-12.xlsx,1913-12-23,32,16,20,NA,NA,NA,NA,NA,NA,NR,Cloudy,NA,NA,32,16,20,NA,NA,NA,NA,E. Jourtellatte,"NA",NA
-data/raw/Weather Record/1913/Weather_1913-12.xlsx,1913-12-24,36,17,17,NA,NA,NA,T,NA,NA,NR,Cloudy,NA,NA,36,17,17,NA,NA,NA,NA,E. Jourtellatte,"NA",NA
+data/raw/Weather Record/1913/Weather_1913-12.xlsx,1913-12-23,32,16,20,NA,NA,NA,NA,NA,NA,NE,Cloudy,NA,NA,32,16,20,NA,NA,NA,NA,E. Jourtellatte,"NA",NA
+data/raw/Weather Record/1913/Weather_1913-12.xlsx,1913-12-24,36,17,17,NA,NA,NA,T,NA,NA,NE,Cloudy,NA,NA,36,17,17,NA,NA,NA,NA,E. Jourtellatte,"NA",NA
 data/raw/Weather Record/1913/Weather_1913-12.xlsx,1913-12-25,34,24,0,NA,NA,NA,T,NA,NA,N,Cloudy,NA,NA,34,24,0,NA,NA,NA,NA,E. Jourtellatte,"NA",NA
 data/raw/Weather Record/1913/Weather_1913-12.xlsx,1913-12-26,24,12,20,NA,NA,NA,NA,NA,NA,SE,Cloudy,heavy,frost,24,12,20,NA,NA,NA,NA,E. Jourtellatte,"NA",NA
 data/raw/Weather Record/1913/Weather_1913-12.xlsx,1913-12-27,32,18,14,NA,NA,NA,NA,NA,NA,SE,Cloudy,heavy,frost,32,18,14,NA,NA,NA,NA,E. Jourtellatte,"NA",NA
@@ -10405,9 +10405,9 @@ data/raw/Weather Record/1922/Weather_1922-05.xlsx,1922-05-28,83,69,14,NA,0.70833
 data/raw/Weather Record/1922/Weather_1922-05.xlsx,1922-05-29,81,64,17,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,81,64,17,NA,NA,NA,NA,NA,NA,NA
 data/raw/Weather Record/1922/Weather_1922-05.xlsx,1922-05-30,79,65,14,NA,0.75,0.875,0.39,NA,NA,NA,NA,NA,NA,79,65,14,NA,0.39,NA,NA,NA,18:00:00,21:00:00
 data/raw/Weather Record/1922/Weather_1922-05.xlsx,1922-05-31,75,59,16,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,75,59,16,NA,NA,NA,NA,NA,NA,NA
-data/raw/Weather Record/1922/Weather_1922-06.xlsx,1922-06-01,72,56,1,NA,NA,NA,NA,NA,NA,East,PtCloudy,East,PtCloudy,72,56,1,NA,NA,NA,NA,Claude F Davis,        NA,NA
-data/raw/Weather Record/1922/Weather_1922-06.xlsx,1922-06-02,73,56,2,NA,NA,NA,NA,NA,NA,South,PtCloudy,NA,Clear,73,56,2,NA,NA,NA,NA,Claude F Davis,        NA,NA
-data/raw/Weather Record/1922/Weather_1922-06.xlsx,1922-06-03,77,54,3,NA,NA,NA,NA,NA,NA,S,Clear,South,Clear,77,54,3,NA,NA,NA,NA,Claude F Davis,        NA,NA
+data/raw/Weather Record/1922/Weather_1922-06.xlsx,1922-06-01,72,56,1,NA,NA,NA,NA,NA,NA,E,PtCloudy,E,PtCloudy,72,56,1,NA,NA,NA,NA,Claude F Davis,        NA,NA
+data/raw/Weather Record/1922/Weather_1922-06.xlsx,1922-06-02,73,56,2,NA,NA,NA,NA,NA,NA,S,PtCloudy,NA,Clear,73,56,2,NA,NA,NA,NA,Claude F Davis,        NA,NA
+data/raw/Weather Record/1922/Weather_1922-06.xlsx,1922-06-03,77,54,3,NA,NA,NA,NA,NA,NA,S,Clear,S,Clear,77,54,3,NA,NA,NA,NA,Claude F Davis,        NA,NA
 data/raw/Weather Record/1922/Weather_1922-06.xlsx,1922-06-04,79,55,4,NA,NA,NA,NA,NA,NA,S,Clear,S,PtCloudy,79,55,4,NA,NA,NA,NA,Claude F Davis,        NA,NA
 data/raw/Weather Record/1922/Weather_1922-06.xlsx,1922-06-05,75,56,5,NA,NA,NA,NA,NA,NA,S,PtCloudy,S,PtCloudy,75,56,5,NA,NA,NA,NA,Claude F Davis,        NA,NA
 data/raw/Weather Record/1922/Weather_1922-06.xlsx,1922-06-06,82,60,6,NA,0.71875,0.70833333333333337,0.06,NA,NA,S,PtCloudy,S,PtCloudy,82,60,6,NA,0.06,NA,NA,Claude F Davis, 0.7187500,17:00:00
@@ -10493,9 +10493,9 @@ data/raw/Weather Record/1922/Weather_1922-08.xlsx,1922-08-24,105,80,25,NA,NA,NA,
 data/raw/Weather Record/1922/Weather_1922-08.xlsx,1922-08-25,99,79,20,NA,NA,NA,NA,NA,NA,S,PtCloudy,E,Clear,99,79,20,NA,NA,NA,NA,NA,"NA",NA
 data/raw/Weather Record/1922/Weather_1922-08.xlsx,1922-08-26,90,80,10,NA,NA,NA,NA,NA,NA,S,Cloudy,E,Clear,90,80,10,NA,NA,NA,NA,NA,"NA",NA
 data/raw/Weather Record/1922/Weather_1922-08.xlsx,1922-08-27,89,67,22,NA,NA,NA,NA,NA,NA,E,Clear,S,Clear,89,67,22,NA,NA,NA,NA,NA,"NA",NA
-data/raw/Weather Record/1922/Weather_1922-08.xlsx,1922-08-28,93,65,25,NA,NA,NA,NA,NA,NA,Souh,Cloudy,S,Clear,93,65,25,NA,NA,NA,NA,NA,"NA",NA
-data/raw/Weather Record/1922/Weather_1922-08.xlsx,1922-08-29,95,65,30,NA,NA,NA,NA,NA,NA,South,Cloudy,S,Clear,95,65,30,NA,NA,NA,NA,NA,"NA",NA
-data/raw/Weather Record/1922/Weather_1922-08.xlsx,1922-08-30,99,71,28,NA,6,0.26041666666666669,0.01,NA,NA,South,Clear,S,Clear,99,71,28,NA,0.01,NA,NA,NA, 6,0.2604167
+data/raw/Weather Record/1922/Weather_1922-08.xlsx,1922-08-28,93,65,25,NA,NA,NA,NA,NA,NA,S,Cloudy,S,Clear,93,65,25,NA,NA,NA,NA,NA,"NA",NA
+data/raw/Weather Record/1922/Weather_1922-08.xlsx,1922-08-29,95,65,30,NA,NA,NA,NA,NA,NA,S,Cloudy,S,Clear,95,65,30,NA,NA,NA,NA,NA,"NA",NA
+data/raw/Weather Record/1922/Weather_1922-08.xlsx,1922-08-30,99,71,28,NA,6,0.26041666666666669,0.01,NA,NA,S,Clear,S,Clear,99,71,28,NA,0.01,NA,NA,NA, 6,0.2604167
 data/raw/Weather Record/1922/Weather_1922-08.xlsx,1922-08-31,105,75,30,NA,NA,NA,2,NA,NA,NA,NA,NA,NA,105,75,30,NA,2,NA,NA,NA,"NA",NA
 data/raw/Weather Record/1922/Weather_1922-09.xlsx,1922-09-01,102,NA,23,NA,NA,NA,NA,NA,NA,W,NA,S,Clear,102,NA,23,NA,NA,NA,NA,NA,NA,NA
 data/raw/Weather Record/1922/Weather_1922-09.xlsx,1922-09-02,101,76,25,NA,NA,NA,NA,NA,NA,S,Clear,S,Clear,101,76,25,NA,NA,NA,NA,NA,NA,NA
@@ -13098,7 +13098,7 @@ data/raw/Weather Record/1929/Weather_1929-10.xlsx,1929-10-11,73,60,19,71,8:00AM,
 data/raw/Weather Record/1929/Weather_1929-10.xlsx,1929-10-12,75,58,17,70,NA,NA,0.59,NA,NA,NE,Cloudy,S,Cloudy,75,58,17,70,0.59,NA,NA,Wilber E. Parrish,"NA",NA
 data/raw/Weather Record/1929/Weather_1929-10.xlsx,1929-10-13,71,61,10,68,NA,NA,NA,NA,NA,SE,Cloudy,SE,Cloudy,71,61,10,68,NA,NA,NA,Wilber E. Parrish,"NA",NA
 data/raw/Weather Record/1929/Weather_1929-10.xlsx,1929-10-14,72,58,14,70,NA,NA,0.01,NA,NA,SE,Cloudy,SE,Partly Cloudy,72,58,14,70,0.01,NA,NA,Wilber E. Parrish,"NA",NA
-data/raw/Weather Record/1929/Weather_1929-10.xlsx,1929-10-15,73,56,20,76,NA,NA,NA,NA,NA,None,Cloudy,S,Partly Cloudy,73,56,20,76,NA,NA,NA,Wilber E. Parrish,"NA",NA
+data/raw/Weather Record/1929/Weather_1929-10.xlsx,1929-10-15,73,56,20,76,NA,NA,NA,NA,NA,NA,Cloudy,S,Partly Cloudy,73,56,20,76,NA,NA,NA,Wilber E. Parrish,"NA",NA
 data/raw/Weather Record/1929/Weather_1929-10.xlsx,1929-10-16,89,57,26,80,NA,NA,NA,NA,NA,S,Clear,S,Clear,89,57,26,80,NA,NA,NA,Wilber E. Parrish,"NA",NA
 data/raw/Weather Record/1929/Weather_1929-10.xlsx,1929-10-17,84,60,24,77,NA,NA,NA,NA,NA,S,Clear,S,Partly Cloudy,84,60,24,77,NA,NA,NA,Wilber E. Parrish,"NA",NA
 data/raw/Weather Record/1929/Weather_1929-10.xlsx,1929-10-18,80,64,16,75,NA,NA,NA,NA,NA,SE,Cloudy,S,Cloudy,80,64,16,75,NA,NA,NA,Wilber E. Parrish,"NA",NA
