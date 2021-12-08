@@ -4,10 +4,106 @@ author: "Phil Alderman, Ryan Earp, and Katherine Haile"
 date: "12/2/2021"
 output: html_document
 ---
+<<<<<<< HEAD
    
 # Summary   
 This, that, and the other thing 
    
+=======
+
+## Data Consolidation
+
+  The first task to combine the excel sheets created by the library staff from the paper documents was achieved using an function we created in R. The filename of the document was used as the argument of the function, and the read_excel and read_ods functions were used to assign the file to a temporary dataframe called raw. The raw dataframes were then subsetted to exclude the summary data and column names used in the original documents and clean variable names were assigned to the columns. Due to the variation in characters in some of the numerical columns, these were coerced to a numeric form and the original columns were labeled as such. Columns to record the year, month, observer were assigned to the corresponding cells in the original document. The overall date was also combined and the times for the beginning and ending time of rain events were set as such. Finally, the date was set as the first column and the year, month, and day columns were removed.
+  This function was then used to read in all of the original files and create a single .csv file. The file names were extracted from the raw data folder and ensured only the correct files were selected. This list was then fed into the read_wth_data function and arranged by date.
+
+```{r}
+read_wth_data <- function(file_name){
+  if(str_detect(file_name, "1937-11")){
+    sheet = "Nov. 1937"
+  }else{
+    sheet = 1
+  }
+  if(str_detect(file_name, "1896-01")){
+    cshift <- 1
+  }else{
+    cshift <- 0
+  }
+  if(str_detect(file_name, "\\.ods$")){
+    raw <- read_ods(file_name, col_names = FALSE, sheet = sheet) %>% 
+      as_tibble() %>% 
+      mutate(across(where(is.numeric), .fns = as.character))
+  }else{
+    raw <- read_excel(file_name, col_names = FALSE, sheet = sheet)
+  }
+  wdata <- raw[30:60, 1:14] %>% 
+    rename_with(.fn = ~c("day", "temp_maximum", "temp_minimum", "temp_range", "temp_set_max", 
+                    "precip_time_of_beginning", "precip_time_of_ending", "precip_amount",
+                    "precip_snowfall_in_inches", "precip_snow_depth_tobs",
+                    "wind_dir_tobs", "weather_state_tobs", "wind_dir_day", "weather_state_day")) %>% 
+    mutate(across(c(temp_maximum, temp_minimum, temp_range, temp_set_max,
+                    precip_amount, precip_snowfall_in_inches,
+                    precip_snow_depth_tobs),
+                  list(num = as.numeric))) %>% 
+    rename_with(c(temp_maximum, temp_minimum, temp_range, temp_set_max,
+                  precip_amount, precip_snowfall_in_inches,
+                  precip_snow_depth_tobs,
+                  precip_time_of_beginning, precip_time_of_ending),
+                .fn = ~str_c(.,"_orig")) %>% 
+    rename_with(matches("_num$"),
+                .fn = ~str_remove(.,"_num$")) %>% 
+    mutate(year = sanitize_year(as.character(raw[3, 4 + cshift])),
+           month = sanitize_month(as.character(raw[3, 2 + cshift])),
+           observer = as.character(raw[64, 2]),
+           date = mdy(paste(month, day, year)),
+           precip_time_of_beginning = format(times(as.numeric(precip_time_of_beginning_orig))),
+           precip_time_of_ending = ifelse(is.na(as.numeric(precip_time_of_ending_orig)),
+                                          precip_time_of_ending_orig,
+                                          format(times(as.numeric(precip_time_of_ending_orig))))) %>% 
+    select(date, everything(), -c(day, month, year))
+    
+return(wdata)
+}
+source("code/read_weather_data.R")
+wth_data <- list.files("data/raw/Weather Record",
+                        "^[0-9]{4}$",
+                        full.names = TRUE) %>% 
+   map(~list.files(., "(\\.xlsx)|(\\.ods)", full.names = TRUE)) %>% 
+   unlist() %>% 
+   str_subset("(1893_04\\.xlsx)|(~\\$)", negate = TRUE) %>% 
+   tibble(file_path = .) %>% 
+   mutate(imported_data = map(file_path, ~try(read_wth_data(.)))) %>% 
+   unnest(imported_data) %>% 
+   arrange(date)
+
+wth_data %>%
+   filter(!is.na(date)) %>% 
+   arrange(date) %>% 
+   write_csv("data/processed/imported_weather_data_1893-1940.csv")
+```
+
+## Fixed Errors in Import Process
+
+  During the import process, some challenges were encountered in reading in the files. Two different types of files were used to document the written documents, excel and ods. Due to this, two different functions were needed to read in the files to R. Additionally, varying naming conventions for the files were used throughout the years with some duplicated, so the file list needed to be subsetted to only include the desired files.
+  Additionally, some errors were reported when trying to read in some of the files. One file had the sheet name labeled as the month and year instead of sheet 1 like the rest, so an exception was needed for this file. Another file had the summary titles in column A repeated in column B so the information collected from this needed to be shifted to the right one. 
+  After an initial summary of the data set, it was observed that there were several entries were recorded after the year 2000 and others the date was NA. Further investigation found errors that were corrected in code. One file contained the incorrect year in the year cell. Others had varying errors in the month column of the document. This occured from either mispelling of the month or using a mispelled abbreviation caused the function to incorrectly assign the year.
+```{r}
+sanitize_year <- function(year){
+  if(year == "2021"){
+    year <- "1921"
+  }
+  return(year)
+}
+
+sanitize_month <- function(month){
+  if(month %in% c("Fabruary", "Feburary")){
+    month <- "February"
+  }else if(month %in% c("Semptember", "Spet.")){
+    month <- "September"
+  }
+  return(month)
+}
+```
+>>>>>>> 2c7b8060132d45728861c0a51796ac20844c86aa
                          
 # Wind Direction at Time of Observation (wind_dir_tobs)  
  
@@ -75,6 +171,7 @@ wth_data %>%
 
 
 # Temperature Range for the Day (temp_range)
+  
 ```{r temp_range}
 
 ```
