@@ -116,20 +116,36 @@ sanitize_month <- function(month){
 ```
 
 
-# Wind Direction for the Day (wind_dir_tobs)
+# Wind Direction at Time of Observation (wind_dir_tobs)  
+  To check for any errors within the wind direction column, the unique function was used to show all unique entries within the column. This resulted in a list that contained variations on how the directions were inputted as capitalization changes would result in a unique entry. Most of these were able to be resolved using code as we could input all the variations and spelling errors and say what it needed to be. This leaves four data entries where the entry is uncertain and will need to be checked.
 
 ```{r wind_dir_tobs}
+unique_wind_dir <- unique(wth_data$wind_dir_tobs)
+
+sanitize_wind_dir <- function(wind_dir){
+  clean_wind_dir <- str_replace_all(wind_dir, c("( *\\& *)|( *– *)|( *\\+ *)|(;(?=[^ ]))" = "; ",
+                                                "Wind direction at time of observation" = "W",
+                                                "East" = "E",
+                                                "South" = "S",
+                                                "Sw" = "SW",
+                                                "SS" = "SW",
+                                                "ES" = "SE",
+                                                "Souh" = "S",
+                                                "NR" = "NE"))
+wth_data %>% filter(wind_dir_tobs == "?" | wind_dir_tobs == "NE; N?")
 
 ```
 
 
 # Weather State at Time of Observation (weather_state_tobs)
-
+  Similarly to the the wind direction, there are several errors within the weather state due to either misspelling or different ways of entering the same data entry. A similar code will need to be developed for the spelling errors identified within in this column. There are seven data entries containing question marks indicating the value is uncertain and will need to be manually checked.
 
 
 ```{r weather_state_tobs}
+unique_weather <- unique(wth_data$weather_state_tobs) 
 
-
+wth_data %>% 
+filter(weather_state_tobs == "Pt????" | weather_state_tobs == "?")
 ```
 
 # Wind Direction for the Day (wind_dir_day)
@@ -158,32 +174,28 @@ wth_data %>%
 ```
 
 
-# Maximum Temperature (temp_maximum)
-```{r temp_maximum}
-
+# Maximum and Minimum Temperature (temp_maximum and temp_minimum)
+  When evaluating the minimum and maximum temperature the data frame was first checked for NA values, which resulted 191 observations. These were checked against the original documents, and the majority were the result of missing values in the original data set. However, the months of May through August in 1929 were not recorded at all and will need to be filled in.
+Additionally, the data frame was check to see if any observations had recorded values where the minimum temperature for the day was greater than the maximum temperature for the day. There are 27 observations that fit this, and after some further evaluation, some are the result of errors in the original data set and others from misreading the documents. It is recommended that these are examined individually to determine the proper action needed.
+```{r temp}
+na_temp <- wth_data %>% 
+  filter(is.na(temp_maximum), is.na(temp_minimum))
 ```
 
-
-# Minimum Temperature (temp_minimum)
-```{r temp_minimum}
-
-```
 
 
 # Temperature Range for the Day (temp_range)
-  
+  To check the temperature range column, the dataframe was filtered to include any observations where the range did not equal the maximum minus the minimum temperature. A total of 4340 observations fit this description. No further cleaning was done for this as the error could occur within any of the three columns.
 ```{r temp_range}
+wrong_range <- wth_data %>% 
+  filter(temp_range != temp_maximum - temp_minimum) %>% 
+  mutate(diff =(temp_maximum - temp_minimum)-temp_range) %>% 
+  select(file_path, date, temp_minimum, temp_maximum, temp_range, diff)
 
+wrong_range %>% 
+  ggplot(aes(x = diff))+
+  geom_histogram()
 ```
-
-
-# Temperature Set Max (temp_set_max)
-
-```{r temp_set_max}
-
-```
-
-
 # Precipitation Amount (precip_amount)
 There are six values found that were likely transcribed incorrectly from the original data sheet. Four of the highest values simply need a decimal placed before the first number to make them correct. The fifth and sixth incorrect values, which are the next highest ones in ranking order, are difficult to interpret from the original handwriting. However, these values are not correct when compared to the monthly totals that are listed. It may also be worthwhile to import the monthly totals entered in the data sheets and compare them to the calculated totals from each entry for each respective month, which would help ensure that there are no other mistyped data entries that are not as easily noticeable.
 ```{r precip_amount}
